@@ -1,0 +1,96 @@
+Development Credits And Associated Licenses
+===========================================
+
+Third Party Code Credits
+========================
+
+Swiper
+---------------
+- File Location: /assets/scripts/lib/swiper.min.js
+- Source: https://swiperjs.com/
+- License: MIT
+- License URI: https://opensource.org/licenses/MIT
+
+vanilla-tilt.js
+---------------
+- File Location: /assets/scripts/lib/vanilla-tilt.min.js
+- Source: https://micku7zu.github.io/vanilla-tilt.js/
+- License: MIT
+- License URI: https://opensource.org/licenses/MIT
+
+bxSlider
+---------------
+- File Location: /assets/scripts/lib/jquery.bxslider.min.js
+- Source: https://bxslider.com/
+- License: MIT
+- License URI: https://opensource.org/licenses/MIT
+
+Isotope
+---------------
+- File Location: /assets/scripts/lib/gallerylib.js
+- Source: https://isotope.metafizzy.co/
+- License: GPLv3
+- License URI: https://www.gnu.org/licenses/gpl-3.0.html
+
+Packery
+---------------
+- File Location: /assets/scripts/lib/packery.pkgd.js
+- Source: https://packery.metafizzy.co/
+- License: GPLv3
+- License URI: https://www.gnu.org/licenses/gpl-3.0.html
+
+imagesLoaded
+---------------
+- File Location: /assets/scripts/lib/imagesloaded.pkgd.min.js
+- Source: https://imagesloaded.desandro.com/
+- License: MIT
+- License URI: https://opensource.org/licenses/MIT
+
+lightgallery
+---------------
+- File Location: /assets/scripts/lib/lightgallery.js
+- Source: https://sachinchoolur.github.io/lightgallery.js/
+- License: GPLv3
+- License URI: https://www.gnu.org/licenses/gpl-3.0.html
+
+Animejs
+---------------
+- File Location: /assets/scripts/lib/anime.js
+- Source: https://animejs.com/
+- License: MIT
+- License URI: https://opensource.org/licenses/MIT
+
+Izmir Hover Effects
+---------------
+- File Location: /assets/styles/lib/df_lib_styles.css
+- Source: https://ciar4n.com/izmir/
+- License: MIT
+- License URI: https://opensource.org/licenses/MIT
+
+TypeIt
+---------------
+- File Location: /assets/scripts/lib/typewriterlib.js
+- Source: https://github.com/tameemsafi/typewriterjs
+- License: MIT
+- License URI: https://opensource.org/licenses/MIT
+
+Tippyjs
+---------------
+- File Location: /assets/scripts/lib/tippy-bundle.min.js
+- Source: https://unpkg.com/tippy.js@6
+- License: MIT
+- License URI: https://opensource.org/licenses/MIT
+
+JSZip
+---------------
+- File Location: /assets/scripts/lib/jszip.min.js
+- Source: https://stuk.github.io/jszip/
+- License: GPLv3
+- License URI: https://opensource.org/licenses/gplv3
+
+Lottie web
+---------------
+- File Location: /assets/scripts/lib/lottie.js
+- Source: https://airbnb.io/lottie
+- License: MIT
+- License URI: https://opensource.org/licenses/MIT

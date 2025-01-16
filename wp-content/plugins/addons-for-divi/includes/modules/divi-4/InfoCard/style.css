@@ -1,0 +1,57 @@
+.dtq-card {
+    display: flex;
+    overflow: initial !important;
+    color: inherit;
+    position: relative;
+}
+
+.dtq-card-content {
+    flex: 1 1;
+}
+
+.dtq-module .dtq-card-title {
+    font-size: 22px;
+}
+
+.dtq-card-icon {
+    border-style: solid;
+}
+
+.dtq-card-figure {
+    position: relative;
+}
+
+.use-icon-on .dtq-card-figure {
+    display: inline-block;
+}
+
+.dtq-card-figure img {
+    transition: 0.2s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    border-style: solid;
+}
+
+.dtq-card-figure {
+    position: relative;
+}
+
+.dtq-card img {
+    vertical-align: middle;
+}
+
+.dtq-card-icon {
+    display: inline-block;
+}
+
+.dtq-card-badge {
+    font-size: 13px;
+    border-style: solid;
+    white-space: nowrap;
+}
+
+.dtq-card .dtq-card-title {
+    margin-bottom: 0;
+}
+
+.dtq-card-desc p:empty {
+    display: none;
+}

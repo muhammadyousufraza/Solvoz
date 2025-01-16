@@ -1,0 +1,156 @@
+.dtq-team {
+    border-style: solid;
+}
+
+.dtq-team-content {
+    border-style: solid;
+    z-index: 99;
+}
+
+.dtq-team figure .figure-wrap {
+    overflow: hidden;
+    height: 100%;
+}
+
+.dtq-team figure {
+    border-width: 0;
+    position: relative;
+}
+
+.dtq-team figure img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    transition: 0.3s;
+    border-style: solid;
+}
+
+.et-db #et-boc .dtq-team .dtq-team-social,
+.dtq-team .dtq-team-social {
+    list-style: none !important;
+    padding-left: 0;
+}
+
+.dtq-team .dtq-team-social {
+    display: flex;
+    padding-bottom: 0;
+    transition: 0.3s;
+    margin-bottom: 0;
+}
+
+.dtq-team .dtq-team-social li a span,
+.dtq-team .dtq-team-social li a svg {
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.dtq-team .dtq-team-social li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    padding: 3px;
+}
+
+.dtq-team .content-left {
+    text-align: left;
+}
+
+.dtq-team .content-right {
+    text-align: right;
+}
+
+.dtq-team .content-center {
+    text-align: center;
+}
+
+.dtq-team .item-center {
+    justify-content: center;
+}
+.dtq-team-content-job-title,
+.dtq-team-content-bio {
+    font-size: 14px;
+}
+h3.dtq-team-content-name {
+    font-size: 22px;
+}
+.dtq-team .item-right {
+    justify-content: flex-end;
+}
+
+/* Hover style 1*/
+.dtq-team.hover_1 {
+    position: relative;
+}
+
+.dtq-team.hover_1 .dtq-team-content {
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+    width: calc(100% - 50px);
+    opacity: 0;
+}
+
+.dtq-team.hover_1:hover .dtq-team-content {
+    bottom: 25px;
+    opacity: 1;
+}
+
+/* Hover style 2*/
+.dtq-team.hover_2 {
+    position: relative;
+}
+
+.dtq-team.hover_2 .dtq-team-content {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dtq-team.hover_2:hover .dtq-team-content {
+    opacity: 1;
+}
+
+/* Hover style 3*/
+.dtq-team.hover_3 {
+    position: relative;
+}
+
+.dtq-team.hover_3 .dtq-team-content {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    opacity: 0;
+    transform: translateY(100%);
+}
+
+.dtq-team.hover_3:hover .dtq-team-content {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Hover style 4*/
+.dtq-team.hover_4 {
+    position: relative;
+}
+
+.dtq-team.hover_4 .dtq-team-content {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    width: calc(100% - 50px);
+    opacity: 0;
+    transform: translateY(-50%) scale(0.7);
+}
+
+.dtq-team.hover_4:hover .dtq-team-content {
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
+}

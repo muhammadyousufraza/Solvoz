@@ -1,0 +1,8 @@
+[29-Sep-2024 07:07:33 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/solvozco/public_html/info/wp-content/mu-plugins/sso.php:59
+Stack trace:
+#0 {main}
+  thrown in /home4/solvozco/public_html/info/wp-content/mu-plugins/sso.php on line 59
+[06-Oct-2024 07:01:46 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/solvozco/public_html/info/wp-content/mu-plugins/sso.php:59
+Stack trace:
+#0 {main}
+  thrown in /home4/solvozco/public_html/info/wp-content/mu-plugins/sso.php on line 59

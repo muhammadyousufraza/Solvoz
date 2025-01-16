@@ -1,0 +1,24 @@
+.dtq-skillbar {
+    position: relative;
+}
+
+.dtq-skillbar__wrapper {
+    background: #ddd;
+    overflow: hidden;
+}
+
+.dtq-skillbar__inner {
+    transition: 0.3s;
+    white-space: nowrap;
+    background-color: #5b2cff;
+}
+
+.dtq-skillbar__inner__text {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.dtq-skillbar__inner span {
+    color: #ffffff;
+}

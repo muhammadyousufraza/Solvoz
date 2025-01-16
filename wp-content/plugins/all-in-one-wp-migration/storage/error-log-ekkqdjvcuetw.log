@@ -1,0 +1,3 @@
+Jan 14 2025 10:02:00
+{"type":8192,"message":"Creation of dynamic property DF_SL_Plugin_Updater::$beta is deprecated","file":"C:\\Users\\REHMAN COMPUTER\\Local Sites\\solvoz\\app\\public\\wp-content\\plugins\\diviflash-2\\admin\\license\\DF_SL_Plugin_Updater.php","line":42}
+

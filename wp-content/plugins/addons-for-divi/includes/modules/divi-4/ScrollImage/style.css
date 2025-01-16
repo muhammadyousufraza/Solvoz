@@ -1,0 +1,55 @@
+.dtq-scroll-image {
+    cursor: pointer;
+}
+
+.scroll-figure-wrap {
+    position: relative;
+}
+
+.dtq-scroll-image-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    transition: 0.3s all ease-in-out;
+}
+
+.dtq-scroll-image-icon img {
+    width: 50px;
+}
+.dtq-scroll-image-icon {
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s all ease-in-out;
+}
+.dtq-scroll-image:hover .dtq-scroll-image-overlay,
+.dtq-scroll-image:hover .dtq-scroll-image-icon {
+    opacity: 0;
+}
+
+@keyframes dtq-scroll-X {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+}
+
+@keyframes dtq-scroll-Y {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+}

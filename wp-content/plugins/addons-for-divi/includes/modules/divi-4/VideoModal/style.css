@@ -1,0 +1,140 @@
+.bck_video_popup {
+    overflow: hidden;
+}
+
+.dtq-video-popup-inner {
+    position: relative;
+}
+
+.dtq-video-popup a svg {
+    transition: 0.2s ease-in-out;
+}
+.dtq-video-popup a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.dtq-video-popup .dtq-video-popup-icon:after,
+.dtq-video-popup a:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    -webkit-animation: dtq-video-animation 2s infinite;
+    animation: dtq-video-animation 2s infinite;
+}
+
+@keyframes dtq-video-animation {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.dtq-video-popup a {
+    color: #ffffff;
+}
+
+.dtq-video-popup-trigger {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+
+.dtq-video-popup-figure {
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+
+.dtq-video-popup-figure:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.dtq-video-popup-figure img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.dtq-video-open .mfp-iframe-holder .mfp-close {
+    width: 52px;
+    top: -51px !important;
+    opacity: 1 !important;
+    font-size: 46px;
+}
+
+.dtq-video-open .mfp-iframe-holder .mfp-close:focus {
+    outline: none;
+    border: none;
+}
+
+.dtq-modal {
+    max-width: 700px;
+    margin: 30px auto;
+    position: relative;
+    padding: 0px;
+    background: #fff;
+    opacity: 0;
+    transition: 0.1s !important;
+}
+
+.dtq-video-wrap {
+    overflow: hidden;
+}
+
+.dtq-modal video {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.dtq-video-open .mfp-wrap .dtq-modal .mfp-close:active {
+    top: 0 !important;
+}
+
+.dtq-modal.open {
+    opacity: 1;
+}
+
+.dtq-modal-open .mfp-close-btn-in .mfp-close {
+    color: #fff;
+    top: -42px;
+    opacity: 1;
+    font-size: 40px;
+}
+
+.dtq-video-popup-icon,
+.dtq-video-popup-text {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.dtq-video-popup-text {
+    font-size: 16px;
+    line-height: 1em;
+}

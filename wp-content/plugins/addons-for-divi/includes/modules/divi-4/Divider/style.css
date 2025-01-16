@@ -1,0 +1,28 @@
+.dtq-divider {
+    display: flex;
+}
+
+.dtq-divider__text {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.dtq-divider__text span {
+    display: block;
+}
+.dtq-divider__element img,
+.dtq-divider__element i {
+    border-style: solid;
+}
+
+.dtq-divider__icon i {
+    display: inline-block !important;
+}
+
+.dtq-divider__border {
+    flex: 1;
+}
+
+.dtq-divider__text {
+    font-size: 30px;
+    line-height: 1em;
+}

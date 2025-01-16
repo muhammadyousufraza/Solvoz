@@ -1,0 +1,49 @@
+.dtq-info-box .dtq-info-box-figure {
+    overflow: hidden;
+    position: relative;
+}
+
+.dtq-info-box .dtq-info-box-figure img {
+    transition: 0.3s;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.dtq-info-box .dtq-info-box-figure {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dtq-info-box-icon {
+    transition: 0.2s all ease !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dtq-info-box .dtq-info-box-figure,
+.dtq-info-box .dtq-info-box-icon,
+.dtq-info-box .dtq-content-video {
+    border-style: solid;
+}
+
+.dtq-mce-content p,
+.dtq-mce-content h1,
+.dtq-mce-content h2,
+.dtq-mce-content h3,
+.dtq-mce-content h4,
+.dtq-mce-content h5,
+.dtq-mce-content h6 {
+    color: inherit !important;
+}
+
+.fluid-video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.dtq-content-video {
+    border-style: solid;
+}

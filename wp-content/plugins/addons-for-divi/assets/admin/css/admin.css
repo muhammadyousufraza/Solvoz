@@ -1,0 +1,18 @@
+#adminmenu
+	#toplevel_page_divitorque
+	a[href='admin.php?page=go_divitorque_pro'] {
+	font-weight: 700;
+	color: #fff;
+	background-color: #219653;
+	box-shadow: none;
+	padding: 0px 6px;
+	height: 31px;
+	font-size: 12px;
+	transition: all 0.3s;
+	text-align: center;
+	border-radius: 6px;
+	margin: 5px 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

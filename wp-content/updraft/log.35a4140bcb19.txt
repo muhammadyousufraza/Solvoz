@@ -1,0 +1,891 @@
+0000.000 (0) Opened log file at time: Fri, 03 Jan 2025 23:06:47 +0000 on https://info.solvoz.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.12 WP: 6.7.1 PHP: 8.0.30 (litespeed, Linux just2010.justhost.com 4.19.286-203.ELK.el7.x86_64 #1 SMP Wed Jun 14 04:33:55 CDT 2023 x86_64) MySQL: 5.7.23-23 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 33.2M | 34M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.078 (0) Free space on disk containing Updraft's temporary directory: 149013.8 MB
+0000.083 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.085 (0) Semaphore (fd, blZ_options) being initialised
+0000.086 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.088 (0) Set semaphore last lock (fd) time to 2025-01-03 23:06:48
+0000.088 (0) Semaphore lock (fd) complete
+0000.095 (0) Backup run: resumption=0, nonce=35a4140bcb19, file_nonce=35a4140bcb19 begun at=1735945607 (1s ago), job type=backup
+0000.097 (0) Scheduling a resumption (1) after 300 seconds (1735945908) in case this run gets aborted
+0000.112 (0) Checking if we have a zip executable available
+0000.113 (0) Testing: /usr/bin/zip
+0000.123 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.125 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.126 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.126 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.127 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.139 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.140 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.151 (0) Working binary zip found: /usr/bin/zip
+0000.153 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.154 (0) Creation of backups of directories: beginning
+0000.157 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.387 (0) Total entities for the zip file: 3670 directories, 20583 files (0 skipped as non-modified), 379.2 MB
+0004.390 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0004.523 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: size is now: 0.80 MB
+0004.529 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 100 files added (on-disk size: 831.4 KB)
+0004.533 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 200 files added (on-disk size: 831.4 KB)
+0004.536 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 300 files added (on-disk size: 831.4 KB)
+0004.540 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 400 files added (on-disk size: 831.4 KB)
+0004.544 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 500 files added (on-disk size: 831.4 KB)
+0004.548 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 600 files added (on-disk size: 831.4 KB)
+0004.552 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 700 files added (on-disk size: 831.4 KB)
+0004.557 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 800 files added (on-disk size: 831.4 KB)
+0004.561 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 900 files added (on-disk size: 831.4 KB)
+0004.565 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 1000 files added (on-disk size: 831.4 KB)
+0004.566 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.6 MB, 20583 files batched, 1001 (1002) added so far); re-opening (prior size: 831.4 KB)
+0008.340 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: size is now: 7.60 MB
+0008.347 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 1100 files added (on-disk size: 7787.2 KB)
+0008.351 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 1200 files added (on-disk size: 7787.2 KB)
+0008.355 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 1300 files added (on-disk size: 7787.2 KB)
+0008.358 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 1400 files added (on-disk size: 7787.2 KB)
+0008.362 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 1500 files added (on-disk size: 7787.2 KB)
+0008.365 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 1600 files added (on-disk size: 7787.2 KB)
+0008.369 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 1700 files added (on-disk size: 7787.2 KB)
+0008.374 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 1800 files added (on-disk size: 7787.2 KB)
+0008.379 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 1900 files added (on-disk size: 7787.2 KB)
+0008.383 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 2000 files added (on-disk size: 7787.2 KB)
+0008.384 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.6 MB, 20583 files batched, 1001 (2003) added so far); re-opening (prior size: 7787.2 KB)
+0010.517 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: size is now: 14.50 MB
+0010.522 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 2100 files added (on-disk size: 14814.3 KB)
+0010.527 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 2200 files added (on-disk size: 14814.3 KB)
+0010.531 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 2300 files added (on-disk size: 14814.3 KB)
+0010.535 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 2400 files added (on-disk size: 14814.3 KB)
+0010.539 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 2500 files added (on-disk size: 14814.3 KB)
+0010.543 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 2600 files added (on-disk size: 14814.3 KB)
+0010.547 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 2700 files added (on-disk size: 14814.3 KB)
+0010.552 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 2800 files added (on-disk size: 14814.3 KB)
+0010.556 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 2900 files added (on-disk size: 14814.3 KB)
+0010.560 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 3000 files added (on-disk size: 14814.3 KB)
+0010.563 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (1.5 MB, 20583 files batched, 1001 (3004) added so far); re-opening (prior size: 14814.3 KB)
+0011.630 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 3100 files added (on-disk size: 15658.5 KB)
+0011.636 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 3200 files added (on-disk size: 15658.5 KB)
+0011.641 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 3300 files added (on-disk size: 15658.5 KB)
+0011.647 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 3400 files added (on-disk size: 15658.5 KB)
+0011.653 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 3500 files added (on-disk size: 15658.5 KB)
+0011.660 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 3600 files added (on-disk size: 15658.5 KB)
+0011.667 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 3700 files added (on-disk size: 15658.5 KB)
+0011.670 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 3800 files added (on-disk size: 15658.5 KB)
+0011.674 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 3900 files added (on-disk size: 15658.5 KB)
+0011.678 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 4000 files added (on-disk size: 15658.5 KB)
+0011.679 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.8 MB, 20583 files batched, 1001 (4005) added so far); re-opening (prior size: 15658.5 KB)
+0013.982 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: size is now: 21.80 MB
+0013.988 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 4100 files added (on-disk size: 22311.4 KB)
+0013.993 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 4200 files added (on-disk size: 22311.4 KB)
+0014.004 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 4300 files added (on-disk size: 22311.4 KB)
+0014.009 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 4400 files added (on-disk size: 22311.4 KB)
+0014.014 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 4500 files added (on-disk size: 22311.4 KB)
+0014.020 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 4600 files added (on-disk size: 22311.4 KB)
+0014.026 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 4700 files added (on-disk size: 22311.4 KB)
+0014.032 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 4800 files added (on-disk size: 22311.4 KB)
+0014.038 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 4900 files added (on-disk size: 22311.4 KB)
+0014.044 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 5000 files added (on-disk size: 22311.4 KB)
+0014.045 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.7 MB, 20583 files batched, 1001 (5006) added so far); re-opening (prior size: 22311.4 KB)
+0016.030 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: size is now: 29.50 MB
+0016.035 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 5100 files added (on-disk size: 30218.2 KB)
+0016.038 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 5200 files added (on-disk size: 30218.2 KB)
+0016.042 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 5300 files added (on-disk size: 30218.2 KB)
+0016.045 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 5400 files added (on-disk size: 30218.2 KB)
+0016.048 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 5500 files added (on-disk size: 30218.2 KB)
+0016.051 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 5600 files added (on-disk size: 30218.2 KB)
+0016.055 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 5700 files added (on-disk size: 30218.2 KB)
+0016.058 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 5800 files added (on-disk size: 30218.2 KB)
+0016.061 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 5900 files added (on-disk size: 30218.2 KB)
+0016.064 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 6000 files added (on-disk size: 30218.2 KB)
+0016.065 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.7 MB, 20583 files batched, 1001 (6007) added so far); re-opening (prior size: 30218.2 KB)
+0017.949 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 6100 files added (on-disk size: 34222.9 KB)
+0017.954 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 6200 files added (on-disk size: 34222.9 KB)
+0017.958 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 6300 files added (on-disk size: 34222.9 KB)
+0017.962 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 6400 files added (on-disk size: 34222.9 KB)
+0017.965 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 6500 files added (on-disk size: 34222.9 KB)
+0017.971 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 6600 files added (on-disk size: 34222.9 KB)
+0017.977 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 6700 files added (on-disk size: 34222.9 KB)
+0017.988 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 6800 files added (on-disk size: 34222.9 KB)
+0017.995 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 6900 files added (on-disk size: 34222.9 KB)
+0018.003 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 7000 files added (on-disk size: 34222.9 KB)
+0018.005 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.6 MB, 20583 files batched, 1001 (7008) added so far); re-opening (prior size: 34222.9 KB)
+0020.196 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 7100 files added (on-disk size: 38942.9 KB)
+0020.201 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 7200 files added (on-disk size: 38942.9 KB)
+0020.206 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 7300 files added (on-disk size: 38942.9 KB)
+0020.210 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 7400 files added (on-disk size: 38942.9 KB)
+0020.214 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 7500 files added (on-disk size: 38942.9 KB)
+0020.220 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 7600 files added (on-disk size: 38942.9 KB)
+0020.226 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 7700 files added (on-disk size: 38942.9 KB)
+0020.231 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 7800 files added (on-disk size: 38942.9 KB)
+0020.234 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 7900 files added (on-disk size: 38942.9 KB)
+0020.241 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 8000 files added (on-disk size: 38942.9 KB)
+0020.242 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.8 MB, 20583 files batched, 1001 (8009) added so far); re-opening (prior size: 38942.9 KB)
+0021.918 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: size is now: 47.50 MB
+0021.934 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 8100 files added (on-disk size: 48630.1 KB)
+0021.948 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 8200 files added (on-disk size: 48630.1 KB)
+0021.960 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 8300 files added (on-disk size: 48630.1 KB)
+0021.965 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 8400 files added (on-disk size: 48630.1 KB)
+0021.971 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 8500 files added (on-disk size: 48630.1 KB)
+0021.977 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 8600 files added (on-disk size: 48630.1 KB)
+0021.982 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 8700 files added (on-disk size: 48630.1 KB)
+0021.988 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 8800 files added (on-disk size: 48630.1 KB)
+0021.992 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 8900 files added (on-disk size: 48630.1 KB)
+0021.995 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 9000 files added (on-disk size: 48630.1 KB)
+0021.996 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.7 MB, 20583 files batched, 1001 (9010) added so far); re-opening (prior size: 48630.1 KB)
+0024.224 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: size is now: 62.30 MB
+0024.229 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 9100 files added (on-disk size: 63816.7 KB)
+0024.233 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 9200 files added (on-disk size: 63816.7 KB)
+0024.236 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 9300 files added (on-disk size: 63816.7 KB)
+0024.241 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 9400 files added (on-disk size: 63816.7 KB)
+0024.245 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 9500 files added (on-disk size: 63816.7 KB)
+0024.250 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 9600 files added (on-disk size: 63816.7 KB)
+0024.265 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 9700 files added (on-disk size: 63816.7 KB)
+0024.269 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 9800 files added (on-disk size: 63816.7 KB)
+0024.273 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 9900 files added (on-disk size: 63816.7 KB)
+0024.279 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 10000 files added (on-disk size: 63816.7 KB)
+0024.280 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.1 MB, 20583 files batched, 1001 (10011) added so far); re-opening (prior size: 63816.7 KB)
+0026.417 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 10100 files added (on-disk size: 71455 KB)
+0026.422 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 10200 files added (on-disk size: 71455 KB)
+0026.427 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 10300 files added (on-disk size: 71455 KB)
+0026.432 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 10400 files added (on-disk size: 71455 KB)
+0026.437 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 10500 files added (on-disk size: 71455 KB)
+0026.444 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 10600 files added (on-disk size: 71455 KB)
+0026.450 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 10700 files added (on-disk size: 71455 KB)
+0026.455 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 10800 files added (on-disk size: 71455 KB)
+0026.461 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 10900 files added (on-disk size: 71455 KB)
+0026.466 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 11000 files added (on-disk size: 71455 KB)
+0026.467 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.6 MB, 20583 files batched, 1001 (11012) added so far); re-opening (prior size: 71455 KB)
+0027.830 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 11100 files added (on-disk size: 73822 KB)
+0027.846 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 11200 files added (on-disk size: 73822 KB)
+0027.853 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 11300 files added (on-disk size: 73822 KB)
+0027.859 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 11400 files added (on-disk size: 73822 KB)
+0027.863 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 11500 files added (on-disk size: 73822 KB)
+0027.866 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 11600 files added (on-disk size: 73822 KB)
+0027.870 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 11700 files added (on-disk size: 73822 KB)
+0027.874 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 11800 files added (on-disk size: 73822 KB)
+0027.878 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 11900 files added (on-disk size: 73822 KB)
+0027.881 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 12000 files added (on-disk size: 73822 KB)
+0027.883 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.5 MB, 20583 files batched, 1001 (12013) added so far); re-opening (prior size: 73822 KB)
+0029.981 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 12100 files added (on-disk size: 81373.6 KB)
+0029.986 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 12200 files added (on-disk size: 81373.6 KB)
+0029.991 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 12300 files added (on-disk size: 81373.6 KB)
+0029.995 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 12400 files added (on-disk size: 81373.6 KB)
+0030.000 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 12500 files added (on-disk size: 81373.6 KB)
+0030.005 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 12600 files added (on-disk size: 81373.6 KB)
+0030.010 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 12700 files added (on-disk size: 81373.6 KB)
+0030.015 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 12800 files added (on-disk size: 81373.6 KB)
+0030.020 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 12900 files added (on-disk size: 81373.6 KB)
+0030.025 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 13000 files added (on-disk size: 81373.6 KB)
+0030.027 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.1 MB, 20583 files batched, 1001 (13014) added so far); re-opening (prior size: 81373.6 KB)
+0032.161 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 13100 files added (on-disk size: 92145.1 KB)
+0032.164 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 13200 files added (on-disk size: 92145.1 KB)
+0032.168 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 13300 files added (on-disk size: 92145.1 KB)
+0032.171 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 13400 files added (on-disk size: 92145.1 KB)
+0032.174 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 13500 files added (on-disk size: 92145.1 KB)
+0032.177 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 13600 files added (on-disk size: 92145.1 KB)
+0032.181 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 13700 files added (on-disk size: 92145.1 KB)
+0032.184 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 13800 files added (on-disk size: 92145.1 KB)
+0032.188 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 13900 files added (on-disk size: 92145.1 KB)
+0032.191 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 14000 files added (on-disk size: 92145.1 KB)
+0032.192 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.6 MB, 20583 files batched, 1001 (14015) added so far); re-opening (prior size: 92145.1 KB)
+0034.741 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 14100 files added (on-disk size: 102231.1 KB)
+0034.745 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 14200 files added (on-disk size: 102231.1 KB)
+0034.748 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 14300 files added (on-disk size: 102231.1 KB)
+0034.751 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 14400 files added (on-disk size: 102231.1 KB)
+0034.754 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 14500 files added (on-disk size: 102231.1 KB)
+0034.759 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 14600 files added (on-disk size: 102231.1 KB)
+0034.764 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 14700 files added (on-disk size: 102231.1 KB)
+0034.768 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 14800 files added (on-disk size: 102231.1 KB)
+0034.773 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 14900 files added (on-disk size: 102231.1 KB)
+0034.777 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 15000 files added (on-disk size: 102231.1 KB)
+0034.779 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.5 MB, 20583 files batched, 1001 (15016) added so far); re-opening (prior size: 102231.1 KB)
+0036.642 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 15100 files added (on-disk size: 108292 KB)
+0036.649 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 15200 files added (on-disk size: 108292 KB)
+0036.652 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 15300 files added (on-disk size: 108292 KB)
+0036.664 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 15400 files added (on-disk size: 108292 KB)
+0036.669 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 15500 files added (on-disk size: 108292 KB)
+0036.682 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 15600 files added (on-disk size: 108292 KB)
+0036.687 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 15700 files added (on-disk size: 108292 KB)
+0036.695 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 15800 files added (on-disk size: 108292 KB)
+0036.701 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 15900 files added (on-disk size: 108292 KB)
+0036.707 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 16000 files added (on-disk size: 108292 KB)
+0036.708 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.8 MB, 20583 files batched, 1001 (16017) added so far); re-opening (prior size: 108292 KB)
+0039.166 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 16100 files added (on-disk size: 114596.4 KB)
+0039.171 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 16200 files added (on-disk size: 114596.4 KB)
+0039.175 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 20583 files batched, 248 (16265) added so far); re-opening (prior size: 114596.4 KB)
+0041.813 (0) A useful amount of data was added after this amount of zip processing: 2.7 s (normalised: 2.7 s, rate: 9385.4 KB/s)
+0041.814 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.7284529209137, normalised_time=2.7276439216045, max_time=41.813174962997, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0041.817 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 16300 files added (on-disk size: 119604.1 KB)
+0041.824 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 16400 files added (on-disk size: 119604.1 KB)
+0041.835 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 16500 files added (on-disk size: 119604.1 KB)
+0041.841 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 16600 files added (on-disk size: 119604.1 KB)
+0041.847 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 16700 files added (on-disk size: 119604.1 KB)
+0041.853 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 16800 files added (on-disk size: 119604.1 KB)
+0041.857 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 16900 files added (on-disk size: 119604.1 KB)
+0041.860 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 17000 files added (on-disk size: 119604.1 KB)
+0041.863 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 17100 files added (on-disk size: 119604.1 KB)
+0041.866 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 17200 files added (on-disk size: 119604.1 KB)
+0041.869 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.9 MB, 20583 files batched, 1001 (17266) added so far); re-opening (prior size: 119604.1 KB)
+0043.146 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 17300 files added (on-disk size: 123637.8 KB)
+0043.151 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 17400 files added (on-disk size: 123637.8 KB)
+0043.159 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 17500 files added (on-disk size: 123637.8 KB)
+0043.164 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 17600 files added (on-disk size: 123637.8 KB)
+0043.170 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 17700 files added (on-disk size: 123637.8 KB)
+0043.176 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 17800 files added (on-disk size: 123637.8 KB)
+0043.180 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 17900 files added (on-disk size: 123637.8 KB)
+0043.186 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 18000 files added (on-disk size: 123637.8 KB)
+0043.189 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 18100 files added (on-disk size: 123637.8 KB)
+0043.195 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 18200 files added (on-disk size: 123637.8 KB)
+0043.198 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19 MB, 20583 files batched, 1001 (18267) added so far); re-opening (prior size: 123637.8 KB)
+0044.884 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 18300 files added (on-disk size: 128884.2 KB)
+0044.888 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 18400 files added (on-disk size: 128884.2 KB)
+0044.893 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 18500 files added (on-disk size: 128884.2 KB)
+0044.897 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 18600 files added (on-disk size: 128884.2 KB)
+0044.901 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 18700 files added (on-disk size: 128884.2 KB)
+0044.904 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 18800 files added (on-disk size: 128884.2 KB)
+0044.908 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 18900 files added (on-disk size: 128884.2 KB)
+0044.913 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 19000 files added (on-disk size: 128884.2 KB)
+0044.917 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 19100 files added (on-disk size: 128884.2 KB)
+0044.920 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 19200 files added (on-disk size: 128884.2 KB)
+0044.922 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (43.8 MB, 20583 files batched, 1001 (19268) added so far); re-opening (prior size: 128884.2 KB)
+0048.273 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 19300 files added (on-disk size: 146007.8 KB)
+0048.278 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 19400 files added (on-disk size: 146007.8 KB)
+0048.281 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 19500 files added (on-disk size: 146007.8 KB)
+0048.284 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 19600 files added (on-disk size: 146007.8 KB)
+0048.287 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 19700 files added (on-disk size: 146007.8 KB)
+0048.290 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 19800 files added (on-disk size: 146007.8 KB)
+0048.294 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 19900 files added (on-disk size: 146007.8 KB)
+0048.298 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 20000 files added (on-disk size: 146007.8 KB)
+0048.302 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 20100 files added (on-disk size: 146007.8 KB)
+0048.307 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 20200 files added (on-disk size: 146007.8 KB)
+0048.310 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.2 MB, 20583 files batched, 1001 (20269) added so far); re-opening (prior size: 146007.8 KB)
+0051.024 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 20300 files added (on-disk size: 152753.3 KB)
+0051.033 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 20400 files added (on-disk size: 152753.3 KB)
+0051.041 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.tmp: 20500 files added (on-disk size: 152753.3 KB)
+0052.114 (0) Creating zip file manifest (backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.list-temp.tmp)
+0052.197 (0) Successfully created zip file manifest (size: 1744865)
+0054.693 (0) Created plugins zip (0) - 153377.3 KB in 54.5 s (2815.8 KB/s) (sha1: dd53709d4da82afeb81ddd6ad0fce75245f83c3b, sha256: 77070a3aadbf380f88e164914182351a97a94ea666cd508f3901ad7ebfdb39cc)
+0054.715 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0054.716 (0) No remote despatch: user chose no remote backup service
+0054.717 (0) Recording as successfully uploaded: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip
+0054.718 (0) Deleting zip manifest (backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip.list.tmp)
+0054.721 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0054.721 (0) Number of backup sets in history: 0; groups (db): 1
+0054.722 (0) Number of backup sets in history: 0; groups (files): 1
+0054.723 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0054.730 (0) Beginning creation of dump of themes (split every: 400 MB)
+0054.866 (0) Total entities for the zip file: 130 directories, 769 files (0 skipped as non-modified), 19 MB
+0054.870 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0054.874 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0054.878 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0054.881 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0054.884 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0054.888 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0054.891 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0056.709 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-themes.zip.tmp: size is now: 14.70 MB
+0056.725 (0) Creating zip file manifest (backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-themes.zip.list-temp.tmp)
+0056.731 (0) Successfully created zip file manifest (size: 54751)
+0057.053 (0) Created themes zip (0) - 15013 KB in 2.3 s (6622 KB/s) (sha1: d55a949133c2998a9bcff29ac5f4d0975be3ea02, sha256: d2ad1aa0079f625737229ec196ba136c1b7d6eca8d532b0355b236bae8597da3)
+0057.057 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0057.057 (0) No remote despatch: user chose no remote backup service
+0057.058 (0) Recording as successfully uploaded: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-themes.zip
+0057.059 (0) Deleting zip manifest (backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-themes.zip.list.tmp)
+0057.063 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0057.065 (0) Number of backup sets in history: 0; groups (db): 1
+0057.066 (0) Number of backup sets in history: 0; groups (files): 1
+0057.067 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0057.074 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0057.075 (0) Looking for candidates to backup in: /home4/solvozco/public_html/info/wp-content/uploads
+0057.076 (0) finding files: 2024: adding to list (1)
+0057.076 (0) finding files: wp-file-manager-pro: adding to list (2)
+0057.077 (0) finding files: 2022: adding to list (3)
+0057.078 (0) finding files: wpcf7_uploads: adding to list (4)
+0057.079 (0) finding files: jobpost: adding to list (5)
+0057.082 (0) finding files: 2019: adding to list (6)
+0057.083 (0) finding files: 2021: adding to list (7)
+0057.084 (0) finding files: thjmf_uploads: adding to list (8)
+0057.084 (0) finding files: wpcode: adding to list (9)
+0057.085 (0) finding files: sinatra: adding to list (10)
+0057.086 (0) finding files: 2025: adding to list (11)
+0057.086 (0) finding files: 2020: adding to list (12)
+0057.087 (0) finding files: 2023: adding to list (13)
+0057.088 (0) finding files: groovy: adding to list (14)
+0057.089 (0) finding files: elementor: adding to list (15)
+0057.090 (0) finding files: wpforms: adding to list (16)
+0057.090 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0057.576 (0) Total entities for the zip file: 68 directories, 4956 files (0 skipped as non-modified), 1146.9 MB
+0057.581 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0057.585 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0057.589 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0057.592 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0057.595 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0057.598 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0057.599 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (201.2 MB, 4956 files batched, 633 (633) added so far); re-opening (prior size: 0 KB)
+0062.599 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads.zip.tmp: size is now: 201.10 MB
+0062.661 (0) A useful amount of data was added after this amount of zip processing: 5.6 s (normalised: 5.5 s, rate: 36952.4 KB/s)
+0062.662 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=5.5766739845276, normalised_time=5.5422617556148, max_time=62.661464929581, data points known=1, max_bytes=209715200)
+0062.667 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads.zip.tmp: 700 files added (on-disk size: 205953.9 KB)
+0062.673 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads.zip.tmp: 800 files added (on-disk size: 205953.9 KB)
+0062.679 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads.zip.tmp: 900 files added (on-disk size: 205953.9 KB)
+0062.686 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads.zip.tmp: 1000 files added (on-disk size: 205953.9 KB)
+0062.692 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (180.9 MB, 445 (1078) files added so far); last ratio: 0.9994; re-opening (prior size: 205953.9 KB)
+0076.559 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads.zip.tmp: size is now: 382.20 MB
+0076.561 (0) Zip size is at/near split limit (382.2 MB / 400 MB) - bumping index (from: 0)
+0082.087 (0) Creating zip file manifest (backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads.zip.list-temp.tmp)
+0082.092 (0) Successfully created zip file manifest (size: 73112)
+0082.094 (0) Created uploads zip (0) - 391323.2 KB in 19.4 s (20152.9 KB/s) (checksums: sha1: 462574ce634b8dbb78f78ea467ba8782a2655db1, sha256: 14111506e81ecea552d7a6f9f4b9eee4e99351b6bcde5aba21dc81b5dec28f11)
+0082.099 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0082.100 (0) No remote despatch: user chose no remote backup service
+0082.100 (0) Recording as successfully uploaded: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads.zip
+0082.102 (0) Deleting zip manifest (backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads.zip.list.tmp)
+0082.103 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0082.104 (0) Number of backup sets in history: 0; groups (db): 1
+0082.104 (0) Number of backup sets in history: 0; groups (files): 1
+0082.105 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0082.186 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (1.1 MB, 1 (1079) files added so far); re-opening (prior size: 0 KB)
+0082.843 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: size is now: 1.10 MB
+0082.846 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 1100 files added (on-disk size: 1162.5 KB)
+0082.849 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 1200 files added (on-disk size: 1162.5 KB)
+0082.853 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 1300 files added (on-disk size: 1162.5 KB)
+0082.859 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 1400 files added (on-disk size: 1162.5 KB)
+0082.863 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 1500 files added (on-disk size: 1162.5 KB)
+0082.868 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 1600 files added (on-disk size: 1162.5 KB)
+0082.871 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 1700 files added (on-disk size: 1162.5 KB)
+0082.875 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 1800 files added (on-disk size: 1162.5 KB)
+0082.883 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200.3 MB, 4956 files batched, 806 (1885) added so far); re-opening (prior size: 1162.5 KB)
+0099.049 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: size is now: 198.40 MB
+0099.052 (0) A useful amount of data was added after this amount of zip processing: 17 s (normalised: 16.9 s, rate: 12086.8 KB/s)
+0099.056 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 1900 files added (on-disk size: 203128.6 KB)
+0099.061 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 2000 files added (on-disk size: 203128.6 KB)
+0099.066 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 2100 files added (on-disk size: 203128.6 KB)
+0099.071 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 2200 files added (on-disk size: 203128.6 KB)
+0099.076 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 2300 files added (on-disk size: 203128.6 KB)
+0099.080 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 2400 files added (on-disk size: 203128.6 KB)
+0099.086 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 2500 files added (on-disk size: 203128.6 KB)
+0099.091 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 2600 files added (on-disk size: 203128.6 KB)
+0099.096 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 2700 files added (on-disk size: 203128.6 KB)
+0099.101 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 2800 files added (on-disk size: 203128.6 KB)
+0099.106 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (61.8 MB, 4956 files batched, 1001 (2886) added so far); re-opening (prior size: 203128.6 KB)
+0102.636 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: size is now: 257.50 MB
+0102.639 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 2900 files added (on-disk size: 263663.2 KB)
+0102.642 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 3000 files added (on-disk size: 263663.2 KB)
+0102.645 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 3100 files added (on-disk size: 263663.2 KB)
+0102.648 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 3200 files added (on-disk size: 263663.2 KB)
+0102.651 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 3300 files added (on-disk size: 263663.2 KB)
+0102.655 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 3400 files added (on-disk size: 263663.2 KB)
+0102.659 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 3500 files added (on-disk size: 263663.2 KB)
+0102.664 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 3600 files added (on-disk size: 263663.2 KB)
+0102.667 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: 3700 files added (on-disk size: 263663.2 KB)
+0102.668 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (136.2 MB, 818 (3704) files added so far); last ratio: 0.9558; re-opening (prior size: 263663.2 KB)
+0108.485 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.tmp: size is now: 392.00 MB
+0108.487 (0) Zip size is at/near split limit (392 MB / 400 MB) - bumping index (from: 1)
+0114.311 (0) Creating zip file manifest (backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.list-temp.tmp)
+0114.323 (0) Successfully created zip file manifest (size: 151256)
+0114.326 (0) Created uploads zip (1) - 401399.8 KB in 26.4 s (15208.6 KB/s) (checksums: sha1: 99d6a3e930b9266b50af032405836ac4093120f5, sha256: 934817c8c254b37b97208682c64e1a7a8cda468438e4692bfe7123b8583e2fab)
+0114.332 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0114.332 (0) No remote despatch: user chose no remote backup service
+0114.334 (0) Recording as successfully uploaded: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip
+0114.339 (0) Deleting zip manifest (backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip.list.tmp)
+0114.344 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0114.347 (0) Number of backup sets in history: 0; groups (db): 1
+0114.348 (0) Number of backup sets in history: 0; groups (files): 1
+0114.348 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0114.358 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (3705) files added so far); re-opening (prior size: 0 KB)
+0114.377 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.tmp: size is now: 0.00 MB
+0114.389 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.tmp: 3800 files added (on-disk size: 6.5 KB)
+0114.403 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.tmp: 3900 files added (on-disk size: 6.5 KB)
+0114.406 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.tmp: 4000 files added (on-disk size: 6.5 KB)
+0114.409 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.tmp: 4100 files added (on-disk size: 6.5 KB)
+0114.413 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.tmp: 4200 files added (on-disk size: 6.5 KB)
+0114.414 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200.5 MB, 4956 files batched, 514 (4219) added so far); re-opening (prior size: 6.5 KB)
+0119.135 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.tmp: size is now: 200.50 MB
+0119.138 (0) A useful amount of data was added after this amount of zip processing: 5.1 s (normalised: 5 s, rate: 40615.7 KB/s)
+0119.139 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=5.0538249015808, normalised_time=5.0423853111336, max_time=119.13841199875, data points known=1, max_bytes=209715200)
+0119.147 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.tmp: 4300 files added (on-disk size: 205300.4 KB)
+0119.157 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.tmp: 4400 files added (on-disk size: 205300.4 KB)
+0119.172 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.tmp: 4500 files added (on-disk size: 205300.4 KB)
+0119.177 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.tmp: 4600 files added (on-disk size: 205300.4 KB)
+0119.183 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.tmp: 4700 files added (on-disk size: 205300.4 KB)
+0119.189 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.tmp: 4800 files added (on-disk size: 205300.4 KB)
+0119.194 (0) Zip: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.tmp: 4900 files added (on-disk size: 205300.4 KB)
+0123.613 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.tmp: size is now: 362.40 MB
+0123.675 (0) Creating zip file manifest (backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.list-temp.tmp)
+0123.681 (0) Successfully created zip file manifest (size: 83521)
+0128.762 (0) Created uploads zip (2) - 371107.9 KB in 14.4 s (25709.5 KB/s) (sha1: c04766119562ba954cca61a579ea9b3b2f717210, sha256: 0b0abdc6f5d266388113c2df8b99fa7ecf1c26450d3423c67738c825236077e4)
+0128.765 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0128.766 (0) No remote despatch: user chose no remote backup service
+0128.766 (0) Recording as successfully uploaded: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip
+0128.768 (0) Deleting zip manifest (backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip.list.tmp)
+0128.769 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0128.770 (0) Number of backup sets in history: 0; groups (db): 1
+0128.771 (0) Number of backup sets in history: 0; groups (files): 1
+0128.771 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0128.775 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0128.839 (0) Total entities for the zip file: 1 directories, 4 files (0 skipped as non-modified), 0.1 MB
+0128.858 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-mu-plugins.zip.tmp: size is now: 0.00 MB
+0128.864 (0) Creating zip file manifest (backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-mu-plugins.zip.list-temp.tmp)
+0128.868 (0) Successfully created zip file manifest (size: 177)
+0128.875 (0) Created mu-plugins zip (0) - 15.7 KB in 0 s (426.6 KB/s) (sha1: 5b46a19434b6446740358a59afad7813f54aaf41, sha256: c1b5972faf1495cc79c1d6c7fc8d839bb063e3c0306b3b04d80607343b9178ca)
+0128.879 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0128.880 (0) No remote despatch: user chose no remote backup service
+0128.881 (0) Recording as successfully uploaded: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-mu-plugins.zip
+0128.883 (0) Deleting zip manifest (backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-mu-plugins.zip.list.tmp)
+0128.885 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0128.886 (0) Number of backup sets in history: 0; groups (db): 1
+0128.887 (0) Number of backup sets in history: 0; groups (files): 1
+0128.888 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0128.893 (0) Beginning backup of other directories found in the content directory (index: 0)
+0128.894 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0128.894 (0) Looking for candidates to backup in: /home4/solvozco/public_html/info/wp-content
+0128.895 (0) finding files: temp-write-test-65337bfd109963-91756805: adding to list (1)
+0128.896 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0128.896 (0) finding files: updraft: skipping: this is the updraft directory
+0128.897 (0) finding files: temp-write-test-65337b7a373dd0-87536917: adding to list (2)
+0128.898 (0) finding files: temp-write-test-65337ba31338e3-29831497: adding to list (3)
+0128.899 (0) finding files: temp-write-test-65337ba51f9b98-37602122: adding to list (4)
+0128.899 (0) finding files: index.php: adding to list (5)
+0128.900 (0) finding files: temp-write-test-65337bfd3ca851-52531803: adding to list (6)
+0128.901 (0) finding files: temp-write-test-65337bfe93d715-58497851: adding to list (7)
+0128.901 (0) finding files: uploads: skipping: this is the uploads directory
+0128.902 (0) finding files: jetpack-waf: adding to list (8)
+0128.903 (0) finding files: temp-write-test-65337be2ee6df8-39321516: adding to list (9)
+0128.904 (0) finding files: temp-write-test-65337b88aecfc6-65060724: adding to list (10)
+0128.904 (0) finding files: temp-write-test-65337be2bd4c51-65786335: adding to list (11)
+0128.905 (0) finding files: upgrade-temp-backup: adding to list (12)
+0128.906 (0) finding files: upgrade: skipping: excluded by options
+0128.906 (0) finding files: plugins: skipping: this is the plugins directory
+0128.907 (0) finding files: themes: skipping: this is the themes directory
+0128.908 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0128.908 (0) finding files: temp-write-test-65337b7a791f93-93928823: adding to list (13)
+0129.021 (0) Total entities for the zip file: 3 directories, 16 files (0 skipped as non-modified), 0 MB
+0129.042 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-others.zip.tmp: size is now: 0.00 MB
+0129.046 (0) Creating zip file manifest (backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-others.zip.list-temp.tmp)
+0129.047 (0) Successfully created zip file manifest (size: 700)
+0129.051 (0) Created others zip (0) - 4 KB in 0.1 s (45.8 KB/s) (sha1: 7bac53bee298c8f2c12a32b08a40d4434ec5facf, sha256: 69e7a265a45b832b8aadc5b2054beaff701f40378aef7c4678b9d798ae64d8aa)
+0129.054 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0129.055 (0) No remote despatch: user chose no remote backup service
+0129.056 (0) Recording as successfully uploaded: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-others.zip
+0129.058 (0) Deleting zip manifest (backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-others.zip.list.tmp)
+0129.060 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0129.061 (0) Number of backup sets in history: 0; groups (db): 1
+0129.062 (0) Number of backup sets in history: 0; groups (files): 1
+0129.062 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0129.070 (0) Saving backup status to database (elements: 12)
+0129.072 (0) Beginning creation of database dump (WordPress DB)
+0129.073 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0129.076 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0129.301 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\n/*!50717 SELECT COUNT(*) INTO @rocksdb_has_p_s_session_variables FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'performance_schema' AND TABL (truncated - 2584 bytes total)
+0129.302 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0129.814 (0) Table blZ_options: Total expected rows (via COUNT): 869
+0129.936 (0) Table blZ_options: Rows added in this batch (next record: 584667): 865 (uncompressed bytes in this segment=2903173) in 0.13 seconds
+0129.942 (0) Table blZ_options: finishing file(s) (2, 467.3 KB)
+0129.945 (0) Table blZ_users: Total expected rows (via COUNT): 11
+0129.946 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0129.948 (0) Table blZ_users: Rows added in this batch (next record: 14): 11 (uncompressed bytes in this segment=2887) in 0.00 seconds
+0129.951 (0) Table blZ_users: finishing file(s) (2, 1.2 KB)
+0129.957 (0) Table blZ_usermeta: Total expected rows (via COUNT): 459
+0129.958 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0129.972 (0) Table blZ_usermeta: Rows added in this batch (next record: 584): 459 (uncompressed bytes in this segment=352750) in 0.02 seconds
+0129.976 (0) Table blZ_usermeta: finishing file(s) (2, 30.4 KB)
+0129.982 (0) Table blZ_actionscheduler_actions: Total expected rows (via COUNT): 111
+0129.982 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0129.987 (0) Table blZ_actionscheduler_actions: Rows added in this batch (next record: 33518): 111 (uncompressed bytes in this segment=53803) in 0.01 seconds
+0129.992 (0) Table blZ_actionscheduler_actions: finishing file(s) (2, 4.6 KB)
+0129.995 (0) Table blZ_actionscheduler_claims: Total expected rows (via COUNT): 0
+0129.997 (0) Table blZ_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=633) in 0.00 seconds
+0130.001 (0) Table blZ_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0130.004 (0) Table blZ_actionscheduler_groups: Total expected rows (via COUNT): 4
+0130.005 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0130.007 (0) Table blZ_actionscheduler_groups: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=751) in 0.00 seconds
+0130.019 (0) Table blZ_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0130.028 (0) Table blZ_actionscheduler_logs: Total expected rows (via COUNT): 317
+0130.029 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0130.033 (0) Table blZ_actionscheduler_logs: Rows added in this batch (next record: 100094): 317 (uncompressed bytes in this segment=33315) in 0.01 seconds
+0130.036 (0) Table blZ_actionscheduler_logs: finishing file(s) (2, 3.9 KB)
+0130.076 (0) Table blZ_commentmeta: Total expected rows (via COUNT): 0
+0130.081 (0) Table blZ_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=691) in 0.04 seconds
+0130.087 (0) Table blZ_commentmeta: finishing file(s) (2, 0.4 KB)
+0130.091 (0) Table blZ_comments: Total expected rows (via COUNT): 4
+0130.092 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0130.094 (0) Table blZ_comments: Rows added in this batch (next record: 5): 4 (uncompressed bytes in this segment=3004) in 0.01 seconds
+0130.099 (0) Table blZ_comments: finishing file(s) (2, 0.9 KB)
+0130.107 (0) Table blZ_links: Total expected rows (via COUNT): 0
+0130.110 (0) Table blZ_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1316) in 0.01 seconds
+0130.115 (0) Table blZ_links: finishing file(s) (2, 0.5 KB)
+0130.117 (0) Table blZ_postmeta: Total expected rows (approximate): 19600
+0135.252 (0) Table blZ_postmeta: binary mysqldump finished (writes: 83, bytes 36131180, return code 0) in 5.13 seconds
+0135.257 (0) Table blZ_postmeta: finishing file(s) (1, 17733.6 KB)
+0136.841 (0) Table blZ_posts: Total expected rows (approximate): 1699
+0137.319 (0) Table blZ_posts: Rows added in this batch (next record: 12931): 2842 (uncompressed bytes in this segment=9375062) in 2.05 seconds
+0137.326 (0) Table blZ_posts: finishing file(s) (2, 1250.6 KB)
+0137.330 (0) Table blZ_term_relationships: Total expected rows (approximate): 995
+0137.335 (0) Table blZ_term_relationships: Rows added in this batch (next record: 100000): 1097 (uncompressed bytes in this segment=18742) in 0.01 seconds
+0137.338 (0) Table blZ_term_relationships: finishing file(s) (2, 3.6 KB)
+0137.343 (0) Table blZ_term_taxonomy: Total expected rows (via COUNT): 244
+0137.343 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.347 (0) Table blZ_term_taxonomy: Rows added in this batch (next record: 244): 244 (uncompressed bytes in this segment=9669) in 0.01 seconds
+0137.353 (0) Table blZ_term_taxonomy: finishing file(s) (2, 2.1 KB)
+0137.377 (0) Table blZ_termmeta: Total expected rows (via COUNT): 25
+0137.378 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.381 (0) Table blZ_termmeta: Rows added in this batch (next record: 25): 25 (uncompressed bytes in this segment=1725) in 0.01 seconds
+0137.386 (0) Table blZ_termmeta: finishing file(s) (2, 0.8 KB)
+0137.391 (0) Table blZ_terms: Total expected rows (via COUNT): 244
+0137.392 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.396 (0) Table blZ_terms: Rows added in this batch (next record: 244): 244 (uncompressed bytes in this segment=9906) in 0.01 seconds
+0137.400 (0) Table blZ_terms: finishing file(s) (2, 3.4 KB)
+0137.425 (0) Table blZ_aioseo_cache: Total expected rows (via COUNT): 22
+0137.426 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.434 (0) Table blZ_aioseo_cache: Rows added in this batch (next record: 12619): 22 (uncompressed bytes in this segment=162448) in 0.03 seconds
+0137.439 (0) Table blZ_aioseo_cache: finishing file(s) (2, 27.9 KB)
+0137.445 (0) Table blZ_aioseo_notifications: Total expected rows (via COUNT): 31
+0137.446 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.463 (0) Table blZ_aioseo_notifications: Rows added in this batch (next record: 32): 31 (uncompressed bytes in this segment=235844) in 0.02 seconds
+0137.468 (0) Table blZ_aioseo_notifications: finishing file(s) (2, 162.4 KB)
+0137.478 (0) Table blZ_aioseo_posts: Total expected rows (via COUNT): 1266
+0137.552 (0) Table blZ_aioseo_posts: Rows added in this batch (next record: 1292): 1266 (uncompressed bytes in this segment=1356366) in 0.08 seconds
+0137.558 (0) Table blZ_aioseo_posts: finishing file(s) (2, 61.7 KB)
+0137.565 (0) Table blZ_ce4wp_contacts: Total expected rows (via COUNT): 0
+0137.567 (0) Table blZ_ce4wp_contacts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=846) in 0.01 seconds
+0137.571 (0) Table blZ_ce4wp_contacts: finishing file(s) (2, 0.4 KB)
+0137.585 (0) Table blZ_countries: Total expected rows (via COUNT): 250
+0137.586 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.600 (0) Table blZ_countries: Rows added in this batch (next record: 250): 250 (uncompressed bytes in this segment=57605) in 0.03 seconds
+0137.605 (0) Table blZ_countries: finishing file(s) (2, 15.8 KB)
+0137.611 (0) Table blZ_e_events: Total expected rows (via COUNT): 4
+0137.612 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.614 (0) Table blZ_e_events: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1369) in 0.01 seconds
+0137.617 (0) Table blZ_e_events: finishing file(s) (2, 0.6 KB)
+0137.791 (0) Table blZ_geodir_api_keys: Total expected rows (via COUNT): 0
+0137.793 (0) Table blZ_geodir_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1022) in 0.17 seconds
+0137.799 (0) Table blZ_geodir_api_keys: finishing file(s) (2, 0.5 KB)
+0137.956 (0) Table blZ_geodir_attachments: Total expected rows (via COUNT): 330
+0137.956 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.966 (0) Table blZ_geodir_attachments: Rows added in this batch (next record: 330): 330 (uncompressed bytes in this segment=276539) in 0.16 seconds
+0137.970 (0) Table blZ_geodir_attachments: finishing file(s) (2, 10.1 KB)
+0137.978 (0) Table blZ_geodir_custom_fields: Total expected rows (via COUNT): 6
+0137.978 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.981 (0) Table blZ_geodir_custom_fields: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=4482) in 0.01 seconds
+0137.984 (0) Table blZ_geodir_custom_fields: finishing file(s) (2, 1.3 KB)
+0137.993 (0) Table blZ_geodir_custom_sort_fields: Total expected rows (via COUNT): 0
+0137.995 (0) Table blZ_geodir_custom_sort_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1136) in 0.01 seconds
+0137.999 (0) Table blZ_geodir_custom_sort_fields: finishing file(s) (2, 0.4 KB)
+0138.077 (0) Table blZ_geodir_gd_place_detail: Total expected rows (via COUNT): 3
+0138.078 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.081 (0) Table blZ_geodir_gd_place_detail: Rows added in this batch (next record: 5721): 3 (uncompressed bytes in this segment=2629) in 0.08 seconds
+0138.086 (0) Table blZ_geodir_gd_place_detail: finishing file(s) (2, 0.8 KB)
+0138.144 (0) Table blZ_geodir_post_reports: Total expected rows (via COUNT): 0
+0138.148 (0) Table blZ_geodir_post_reports: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1089) in 0.06 seconds
+0138.152 (0) Table blZ_geodir_post_reports: finishing file(s) (2, 0.4 KB)
+0138.160 (0) Table blZ_geodir_post_review: Total expected rows (via COUNT): 0
+0138.162 (0) Table blZ_geodir_post_review: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1076) in 0.00 seconds
+0138.166 (0) Table blZ_geodir_post_review: finishing file(s) (2, 0.4 KB)
+0138.172 (0) Table blZ_geodir_tabs_layout: Total expected rows (via COUNT): 4
+0138.173 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.175 (0) Table blZ_geodir_tabs_layout: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1708) in 0.01 seconds
+0138.179 (0) Table blZ_geodir_tabs_layout: finishing file(s) (2, 0.7 KB)
+0138.187 (0) Table blZ_jetpack_sync_queue: Total expected rows (via COUNT): 0
+0138.190 (0) Table blZ_jetpack_sync_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=886) in 0.01 seconds
+0138.196 (0) Table blZ_jetpack_sync_queue: finishing file(s) (2, 0.4 KB)
+0138.236 (0) Table blZ_lsd_data: Total expected rows (via COUNT): 2
+0138.237 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.239 (0) Table blZ_lsd_data: Rows added in this batch (next record: 5627): 2 (uncompressed bytes in this segment=807) in 0.04 seconds
+0138.243 (0) Table blZ_lsd_data: finishing file(s) (2, 0.5 KB)
+0138.249 (0) Table blZ_nf3_action_meta: Total expected rows (via COUNT): 78
+0138.250 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.252 (0) Table blZ_nf3_action_meta: Rows added in this batch (next record: 78): 78 (uncompressed bytes in this segment=7859) in 0.01 seconds
+0138.256 (0) Table blZ_nf3_action_meta: finishing file(s) (2, 1.4 KB)
+0138.262 (0) Table blZ_nf3_actions: Total expected rows (via COUNT): 4
+0138.263 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.265 (0) Table blZ_nf3_actions: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1104) in 0.01 seconds
+0138.269 (0) Table blZ_nf3_actions: finishing file(s) (2, 0.5 KB)
+0138.276 (0) Table blZ_nf3_chunks: Total expected rows (via COUNT): 0
+0138.278 (0) Table blZ_nf3_chunks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=437) in 0.01 seconds
+0138.282 (0) Table blZ_nf3_chunks: finishing file(s) (2, 0.3 KB)
+0138.294 (0) Table blZ_nf3_field_meta: Total expected rows (via COUNT): 260
+0138.295 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.306 (0) Table blZ_nf3_field_meta: Rows added in this batch (next record: 260): 260 (uncompressed bytes in this segment=18049) in 0.02 seconds
+0138.311 (0) Table blZ_nf3_field_meta: finishing file(s) (2, 2.5 KB)
+0138.319 (0) Table blZ_nf3_fields: Total expected rows (via COUNT): 4
+0138.320 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.322 (0) Table blZ_nf3_fields: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1389) in 0.01 seconds
+0138.326 (0) Table blZ_nf3_fields: finishing file(s) (2, 0.6 KB)
+0138.333 (0) Table blZ_nf3_form_meta: Total expected rows (via COUNT): 98
+0138.334 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.338 (0) Table blZ_nf3_form_meta: Rows added in this batch (next record: 98): 98 (uncompressed bytes in this segment=8629) in 0.01 seconds
+0138.343 (0) Table blZ_nf3_form_meta: finishing file(s) (2, 1.5 KB)
+0138.352 (0) Table blZ_nf3_forms: Total expected rows (via COUNT): 1
+0138.353 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.355 (0) Table blZ_nf3_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1077) in 0.01 seconds
+0138.360 (0) Table blZ_nf3_forms: finishing file(s) (2, 0.5 KB)
+0138.368 (0) Table blZ_nf3_object_meta: Total expected rows (via COUNT): 0
+0138.370 (0) Table blZ_nf3_object_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=538) in 0.01 seconds
+0138.375 (0) Table blZ_nf3_object_meta: finishing file(s) (2, 0.3 KB)
+0138.443 (0) Table blZ_nf3_objects: Total expected rows (via COUNT): 0
+0138.445 (0) Table blZ_nf3_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=580) in 0.07 seconds
+0138.450 (0) Table blZ_nf3_objects: finishing file(s) (2, 0.4 KB)
+0138.457 (0) Table blZ_nf3_relationships: Total expected rows (via COUNT): 0
+0138.458 (0) Table blZ_nf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=682) in 0.01 seconds
+0138.463 (0) Table blZ_nf3_relationships: finishing file(s) (2, 0.4 KB)
+0138.471 (0) Table blZ_nf3_upgrades: Total expected rows (via COUNT): 1
+0138.471 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.474 (0) Table blZ_nf3_upgrades: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=19066) in 0.01 seconds
+0138.481 (0) Table blZ_nf3_upgrades: finishing file(s) (2, 2.6 KB)
+0138.489 (0) Table blZ_ninja_table_items: Total expected rows (via COUNT): 27
+0138.491 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.496 (0) Table blZ_ninja_table_items: Rows added in this batch (next record: 35): 27 (uncompressed bytes in this segment=33192) in 0.01 seconds
+0138.501 (0) Table blZ_ninja_table_items: finishing file(s) (2, 8.1 KB)
+0138.552 (0) Table blZ_socialsnap_stats: Total expected rows (via COUNT): 59
+0138.553 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.558 (0) Table blZ_socialsnap_stats: Rows added in this batch (next record: 59): 59 (uncompressed bytes in this segment=10176) in 0.05 seconds
+0138.568 (0) Table blZ_socialsnap_stats: finishing file(s) (2, 2.7 KB)
+0138.577 (0) Table blZ_userfeedback_survey_responses: Total expected rows (via COUNT): 0
+0138.579 (0) Table blZ_userfeedback_survey_responses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1320) in 0.01 seconds
+0138.592 (0) Table blZ_userfeedback_survey_responses: finishing file(s) (2, 0.5 KB)
+0138.599 (0) Table blZ_userfeedback_surveys: Total expected rows (via COUNT): 0
+0138.600 (0) Table blZ_userfeedback_surveys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=948) in 0.00 seconds
+0138.605 (0) Table blZ_userfeedback_surveys: finishing file(s) (2, 0.5 KB)
+0138.613 (0) Table blZ_uwp_form_extras: Total expected rows (via COUNT): 5
+0138.614 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.617 (0) Table blZ_uwp_form_extras: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2513) in 0.01 seconds
+0138.622 (0) Table blZ_uwp_form_extras: finishing file(s) (2, 0.7 KB)
+0138.630 (0) Table blZ_uwp_form_fields: Total expected rows (via COUNT): 17
+0138.631 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.633 (0) Table blZ_uwp_form_fields: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=6008) in 0.01 seconds
+0138.637 (0) Table blZ_uwp_form_fields: finishing file(s) (2, 1.1 KB)
+0138.643 (0) Table blZ_uwp_profile_tabs: Total expected rows (via COUNT): 0
+0138.660 (0) Table blZ_uwp_profile_tabs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1138) in 0.02 seconds
+0138.663 (0) Table blZ_uwp_profile_tabs: finishing file(s) (2, 0.4 KB)
+0138.676 (0) Table blZ_uwp_user_sorting: Total expected rows (via COUNT): 8
+0138.678 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.682 (0) Table blZ_uwp_user_sorting: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1958) in 0.01 seconds
+0138.685 (0) Table blZ_uwp_user_sorting: finishing file(s) (2, 0.6 KB)
+0138.693 (0) Table blZ_uwp_usermeta: Total expected rows (via COUNT): 6
+0138.694 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.695 (0) Table blZ_uwp_usermeta: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=2200) in 0.01 seconds
+0138.700 (0) Table blZ_uwp_usermeta: finishing file(s) (2, 0.6 KB)
+0138.706 (0) Table blZ_wpfm_backup: Total expected rows (via COUNT): 0
+0138.707 (0) Table blZ_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=520) in 0.00 seconds
+0138.712 (0) Table blZ_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0138.717 (0) Table blZ_wpforms_entries: Total expected rows (via COUNT): 20
+0138.717 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.720 (0) Table blZ_wpforms_entries: Rows added in this batch (next record: 20): 20 (uncompressed bytes in this segment=9109) in 0.01 seconds
+0138.725 (0) Table blZ_wpforms_entries: finishing file(s) (2, 2.3 KB)
+0138.734 (0) Table blZ_wpforms_entry_fields: Total expected rows (via COUNT): 20
+0138.735 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.736 (0) Table blZ_wpforms_entry_fields: Rows added in this batch (next record: 20): 20 (uncompressed bytes in this segment=2173) in 0.01 seconds
+0138.741 (0) Table blZ_wpforms_entry_fields: finishing file(s) (2, 1 KB)
+0138.754 (0) Table blZ_wpforms_entry_meta: Total expected rows (via COUNT): 3
+0138.755 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.756 (0) Table blZ_wpforms_entry_meta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1117) in 0.01 seconds
+0138.762 (0) Table blZ_wpforms_entry_meta: finishing file(s) (2, 0.5 KB)
+0138.771 (0) Table blZ_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0138.773 (0) Table blZ_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=745) in 0.01 seconds
+0138.779 (0) Table blZ_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0138.788 (0) Table blZ_wpforms_payments: Total expected rows (via COUNT): 0
+0138.790 (0) Table blZ_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1976) in 0.01 seconds
+0138.798 (0) Table blZ_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0138.806 (0) Table blZ_wpforms_tasks_meta: Total expected rows (via COUNT): 11
+0138.807 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.810 (0) Table blZ_wpforms_tasks_meta: Rows added in this batch (next record: 20): 11 (uncompressed bytes in this segment=1528) in 0.01 seconds
+0138.816 (0) Table blZ_wpforms_tasks_meta: finishing file(s) (2, 0.6 KB)
+0138.831 (0) Table blZ_wpmailsmtp_debug_events: Total expected rows (via COUNT): 0
+0138.835 (0) Table blZ_wpmailsmtp_debug_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=713) in 0.01 seconds
+0138.839 (0) Table blZ_wpmailsmtp_debug_events: finishing file(s) (2, 0.4 KB)
+0138.847 (0) Table blZ_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 1
+0138.848 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.850 (0) Table blZ_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=773) in 0.01 seconds
+0138.855 (0) Table blZ_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+0138.999 (0) Table blZ_yoast_indexable: Total expected rows (via COUNT): 247
+0139.000 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0139.056 (0) Table blZ_yoast_indexable: Rows added in this batch (next record: 1031): 247 (uncompressed bytes in this segment=190877) in 0.20 seconds
+0139.062 (0) Table blZ_yoast_indexable: finishing file(s) (2, 31.5 KB)
+0139.069 (0) Table blZ_yoast_indexable_hierarchy: Total expected rows (approximate): 246
+0139.076 (0) Table blZ_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 246 (uncompressed bytes in this segment=5014) in 0.01 seconds
+0139.080 (0) Table blZ_yoast_indexable_hierarchy: finishing file(s) (2, 1 KB)
+0139.086 (0) Table blZ_yoast_migrations: Total expected rows (via COUNT): 24
+0139.087 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0139.090 (0) Table blZ_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1274) in 0.01 seconds
+0139.094 (0) Table blZ_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0139.109 (0) Table blZ_yoast_primary_term: Total expected rows (via COUNT): 119
+0139.110 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0139.116 (0) Table blZ_yoast_primary_term: Rows added in this batch (next record: 133): 119 (uncompressed bytes in this segment=10163) in 0.02 seconds
+0139.121 (0) Table blZ_yoast_primary_term: finishing file(s) (2, 2.6 KB)
+0139.158 (0) Table blZ_yoast_seo_links: Total expected rows (via COUNT): 950
+0139.204 (0) Table blZ_yoast_seo_links: Rows added in this batch (next record: 2532): 950 (uncompressed bytes in this segment=148943) in 0.08 seconds
+0139.210 (0) Table blZ_yoast_seo_links: finishing file(s) (2, 19.2 KB)
+0139.210 (0) Skipping table (lacks our prefix (blZ_)): zcf_contactformrelation
+0139.211 (0) Skipping table (lacks our prefix (blZ_)): zcf_submitlogs
+0139.212 (0) Skipping table (lacks our prefix (blZ_)): zcf_zohocrm_assignmentrule
+0139.212 (0) Skipping table (lacks our prefix (blZ_)): zcf_zohocrm_formfield_manager
+0139.213 (0) Skipping table (lacks our prefix (blZ_)): zcf_zohocrm_list_module
+0139.214 (0) Skipping table (lacks our prefix (blZ_)): zcf_zohocrmform_field_manager
+0139.214 (0) Skipping table (lacks our prefix (blZ_)): zcf_zohoshortcode_manager
+0139.215 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home4/solvozco/public_html/info/wp-content/updraft/backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0139.217 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_options.table.tmpr584668.gz (1/73/fopen): adding to final database dump
+0139.228 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_options.table.gz (2/73/fopen): adding to final database dump
+0139.229 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_users.table.tmpr15.gz (3/73/fopen): adding to final database dump
+0139.230 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_users.table.gz (4/73/fopen): adding to final database dump
+0139.231 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_usermeta.table.tmpr585.gz (5/73/fopen): adding to final database dump
+0139.232 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_usermeta.table.gz (6/73/fopen): adding to final database dump
+0139.233 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_actionscheduler_actions.table.tmpr33519.gz (7/73/fopen): adding to final database dump
+0139.235 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_actionscheduler_actions.table.gz (8/73/fopen): adding to final database dump
+0139.236 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_actionscheduler_claims.table.tmpr0.gz (9/73/fopen): adding to final database dump
+0139.237 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_actionscheduler_claims.table.gz (10/73/fopen): adding to final database dump
+0139.237 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_actionscheduler_groups.table.tmpr5.gz (11/73/fopen): adding to final database dump
+0139.238 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_actionscheduler_groups.table.gz (12/73/fopen): adding to final database dump
+0139.238 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_actionscheduler_logs.table.tmpr100095.gz (13/73/fopen): adding to final database dump
+0139.239 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_actionscheduler_logs.table.gz (14/73/fopen): adding to final database dump
+0139.240 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_commentmeta.table.tmpr0.gz (15/73/fopen): adding to final database dump
+0139.241 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_commentmeta.table.gz (16/73/fopen): adding to final database dump
+0139.242 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_comments.table.tmpr6.gz (17/73/fopen): adding to final database dump
+0139.242 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_comments.table.gz (18/73/fopen): adding to final database dump
+0139.244 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_links.table.tmpr0.gz (19/73/fopen): adding to final database dump
+0139.245 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_links.table.gz (20/73/fopen): adding to final database dump
+0139.246 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_postmeta.table.gz (21/73/fopen): adding to final database dump
+0139.567 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_posts.table.tmpr12932.gz (22/73/fopen): adding to final database dump
+0139.588 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_posts.table.gz (23/73/fopen): adding to final database dump
+0139.589 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_term_relationships.table.tmpr100001.gz (24/73/fopen): adding to final database dump
+0139.589 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_term_relationships.table.gz (25/73/fopen): adding to final database dump
+0139.590 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_term_taxonomy.table.tmpr245.gz (26/73/fopen): adding to final database dump
+0139.590 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_term_taxonomy.table.gz (27/73/fopen): adding to final database dump
+0139.591 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_termmeta.table.tmpr26.gz (28/73/fopen): adding to final database dump
+0139.592 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_termmeta.table.gz (29/73/fopen): adding to final database dump
+0139.592 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_terms.table.tmpr245.gz (30/73/fopen): adding to final database dump
+0139.593 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_terms.table.gz (31/73/fopen): adding to final database dump
+0139.593 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_aioseo_cache.table.tmpr12620.gz (32/73/fopen): adding to final database dump
+0139.595 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_aioseo_cache.table.gz (33/73/fopen): adding to final database dump
+0139.595 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_aioseo_notifications.table.tmpr33.gz (34/73/fopen): adding to final database dump
+0139.598 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_aioseo_notifications.table.gz (35/73/fopen): adding to final database dump
+0139.599 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_aioseo_posts.table.tmpr1293.gz (36/73/fopen): adding to final database dump
+0139.601 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_aioseo_posts.table.gz (37/73/fopen): adding to final database dump
+0139.601 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_ce4wp_contacts.table.tmpr0.gz (38/73/fopen): adding to final database dump
+0139.602 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_ce4wp_contacts.table.gz (39/73/fopen): adding to final database dump
+0139.603 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_countries.table.tmpr251.gz (40/73/fopen): adding to final database dump
+0139.604 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_countries.table.gz (41/73/fopen): adding to final database dump
+0139.605 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_e_events.table.tmpr5.gz (42/73/fopen): adding to final database dump
+0139.606 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_e_events.table.gz (43/73/fopen): adding to final database dump
+0139.608 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_geodir_api_keys.table.tmpr0.gz (44/73/fopen): adding to final database dump
+0139.609 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_geodir_api_keys.table.gz (45/73/fopen): adding to final database dump
+0139.610 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_geodir_attachments.table.tmpr331.gz (46/73/fopen): adding to final database dump
+0139.611 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_geodir_attachments.table.gz (47/73/fopen): adding to final database dump
+0139.613 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_geodir_custom_fields.table.tmpr7.gz (48/73/fopen): adding to final database dump
+0139.614 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_geodir_custom_fields.table.gz (49/73/fopen): adding to final database dump
+0139.615 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_geodir_custom_sort_fields.table.tmpr0.gz (50/73/fopen): adding to final database dump
+0139.616 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_geodir_custom_sort_fields.table.gz (51/73/fopen): adding to final database dump
+0139.616 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_geodir_gd_place_detail.table.tmpr5722.gz (52/73/fopen): adding to final database dump
+0139.617 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_geodir_gd_place_detail.table.gz (53/73/fopen): adding to final database dump
+0139.618 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_geodir_post_reports.table.tmpr0.gz (54/73/fopen): adding to final database dump
+0139.619 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_geodir_post_reports.table.gz (55/73/fopen): adding to final database dump
+0139.620 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_geodir_post_review.table.tmpr0.gz (56/73/fopen): adding to final database dump
+0139.621 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_geodir_post_review.table.gz (57/73/fopen): adding to final database dump
+0139.621 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_geodir_tabs_layout.table.tmpr5.gz (58/73/fopen): adding to final database dump
+0139.622 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_geodir_tabs_layout.table.gz (59/73/fopen): adding to final database dump
+0139.623 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_jetpack_sync_queue.table.tmpr0.gz (60/73/fopen): adding to final database dump
+0139.623 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_jetpack_sync_queue.table.gz (61/73/fopen): adding to final database dump
+0139.624 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_lsd_data.table.tmpr5628.gz (62/73/fopen): adding to final database dump
+0139.625 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_lsd_data.table.gz (63/73/fopen): adding to final database dump
+0139.625 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_action_meta.table.tmpr79.gz (64/73/fopen): adding to final database dump
+0139.626 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_action_meta.table.gz (65/73/fopen): adding to final database dump
+0139.627 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_actions.table.tmpr5.gz (66/73/fopen): adding to final database dump
+0139.628 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_actions.table.gz (67/73/fopen): adding to final database dump
+0139.628 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_chunks.table.tmpr0.gz (68/73/fopen): adding to final database dump
+0139.629 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_chunks.table.gz (69/73/fopen): adding to final database dump
+0139.630 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_field_meta.table.tmpr261.gz (70/73/fopen): adding to final database dump
+0139.631 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_field_meta.table.gz (71/73/fopen): adding to final database dump
+0139.631 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_fields.table.tmpr5.gz (72/73/fopen): adding to final database dump
+0139.632 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_fields.table.gz (73/73/fopen): adding to final database dump
+0139.633 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_form_meta.table.tmpr99.gz (74/73/fopen): adding to final database dump
+0139.633 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_form_meta.table.gz (75/73/fopen): adding to final database dump
+0139.634 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_forms.table.tmpr2.gz (76/73/fopen): adding to final database dump
+0139.635 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_forms.table.gz (77/73/fopen): adding to final database dump
+0139.635 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_object_meta.table.tmpr0.gz (78/73/fopen): adding to final database dump
+0139.636 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_object_meta.table.gz (79/73/fopen): adding to final database dump
+0139.637 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_objects.table.tmpr0.gz (80/73/fopen): adding to final database dump
+0139.637 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_objects.table.gz (81/73/fopen): adding to final database dump
+0139.638 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_relationships.table.tmpr0.gz (82/73/fopen): adding to final database dump
+0139.638 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_relationships.table.gz (83/73/fopen): adding to final database dump
+0139.639 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_upgrades.table.tmpr2.gz (84/73/fopen): adding to final database dump
+0139.640 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_nf3_upgrades.table.gz (85/73/fopen): adding to final database dump
+0139.640 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_ninja_table_items.table.tmpr36.gz (86/73/fopen): adding to final database dump
+0139.641 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_ninja_table_items.table.gz (87/73/fopen): adding to final database dump
+0139.641 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_socialsnap_stats.table.tmpr60.gz (88/73/fopen): adding to final database dump
+0139.642 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_socialsnap_stats.table.gz (89/73/fopen): adding to final database dump
+0139.643 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_userfeedback_survey_responses.table.tmpr0.gz (90/73/fopen): adding to final database dump
+0139.643 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_userfeedback_survey_responses.table.gz (91/73/fopen): adding to final database dump
+0139.644 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_userfeedback_surveys.table.tmpr0.gz (92/73/fopen): adding to final database dump
+0139.644 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_userfeedback_surveys.table.gz (93/73/fopen): adding to final database dump
+0139.645 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_uwp_form_extras.table.tmpr6.gz (94/73/fopen): adding to final database dump
+0139.646 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_uwp_form_extras.table.gz (95/73/fopen): adding to final database dump
+0139.646 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_uwp_form_fields.table.tmpr18.gz (96/73/fopen): adding to final database dump
+0139.647 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_uwp_form_fields.table.gz (97/73/fopen): adding to final database dump
+0139.648 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_uwp_profile_tabs.table.tmpr0.gz (98/73/fopen): adding to final database dump
+0139.648 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_uwp_profile_tabs.table.gz (99/73/fopen): adding to final database dump
+0139.650 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_uwp_user_sorting.table.tmpr9.gz (100/73/fopen): adding to final database dump
+0139.651 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_uwp_user_sorting.table.gz (101/73/fopen): adding to final database dump
+0139.652 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_uwp_usermeta.table.tmpr7.gz (102/73/fopen): adding to final database dump
+0139.653 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_uwp_usermeta.table.gz (103/73/fopen): adding to final database dump
+0139.654 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpfm_backup.table.tmpr0.gz (104/73/fopen): adding to final database dump
+0139.655 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpfm_backup.table.gz (105/73/fopen): adding to final database dump
+0139.656 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpforms_entries.table.tmpr21.gz (106/73/fopen): adding to final database dump
+0139.657 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpforms_entries.table.gz (107/73/fopen): adding to final database dump
+0139.659 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpforms_entry_fields.table.tmpr21.gz (108/73/fopen): adding to final database dump
+0139.659 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpforms_entry_fields.table.gz (109/73/fopen): adding to final database dump
+0139.660 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpforms_entry_meta.table.tmpr4.gz (110/73/fopen): adding to final database dump
+0139.661 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpforms_entry_meta.table.gz (111/73/fopen): adding to final database dump
+0139.662 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpforms_payment_meta.table.tmpr0.gz (112/73/fopen): adding to final database dump
+0139.662 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpforms_payment_meta.table.gz (113/73/fopen): adding to final database dump
+0139.663 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpforms_payments.table.tmpr0.gz (114/73/fopen): adding to final database dump
+0139.664 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpforms_payments.table.gz (115/73/fopen): adding to final database dump
+0139.665 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpforms_tasks_meta.table.tmpr21.gz (116/73/fopen): adding to final database dump
+0139.665 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpforms_tasks_meta.table.gz (117/73/fopen): adding to final database dump
+0139.666 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpmailsmtp_debug_events.table.tmpr0.gz (118/73/fopen): adding to final database dump
+0139.667 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpmailsmtp_debug_events.table.gz (119/73/fopen): adding to final database dump
+0139.667 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpmailsmtp_tasks_meta.table.tmpr2.gz (120/73/fopen): adding to final database dump
+0139.668 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_wpmailsmtp_tasks_meta.table.gz (121/73/fopen): adding to final database dump
+0139.669 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_yoast_indexable.table.tmpr1032.gz (122/73/fopen): adding to final database dump
+0139.670 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_yoast_indexable.table.gz (123/73/fopen): adding to final database dump
+0139.671 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_yoast_indexable_hierarchy.table.tmpr1001.gz (124/73/fopen): adding to final database dump
+0139.671 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_yoast_indexable_hierarchy.table.gz (125/73/fopen): adding to final database dump
+0139.672 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_yoast_migrations.table.tmpr25.gz (126/73/fopen): adding to final database dump
+0139.673 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_yoast_migrations.table.gz (127/73/fopen): adding to final database dump
+0139.673 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_yoast_primary_term.table.tmpr134.gz (128/73/fopen): adding to final database dump
+0139.674 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_yoast_primary_term.table.gz (129/73/fopen): adding to final database dump
+0139.674 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_yoast_seo_links.table.tmpr2533.gz (130/73/fopen): adding to final database dump
+0139.675 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db-table-blZ_yoast_seo_links.table.gz (131/73/fopen): adding to final database dump
+0140.051 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db.gz: finished writing out complete database file (19875.2 KB)
+0140.360 (0) Total database tables backed up: 66 (backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db.gz, size: 20352377, sha1: 8a0509f8bb81f5ad135973dd1ed8bf880b5de09b, sha256: afc0462a9a6df30c14b7346cbe92688a4ede07cac137c37e67162bd1ee627ef5)
+0140.369 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-plugins.zip: plugins: This file has already been successfully processed
+0140.370 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-themes.zip: themes: This file has already been successfully processed
+0140.371 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads.zip: uploads: This file has already been successfully processed
+0140.371 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads2.zip: uploads: This file has already been successfully processed
+0140.372 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-uploads3.zip: uploads: This file has already been successfully processed
+0140.372 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-mu-plugins.zip: mu-plugins: This file has already been successfully processed
+0140.373 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-others.zip: others: This file has already been successfully processed
+0140.374 (0) backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db.gz: db: This file has not yet been successfully uploaded: will queue
+0140.374 (0) Saving backup history. Total backup size: 1.3 GB
+0140.377 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0140.379 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0140.380 (0) No remote despatch: user chose no remote backup service
+0140.381 (0) Recording as successfully uploaded: backup_2025-01-03-2306_Solvoz_Information_35a4140bcb19-db.gz
+0140.384 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0140.385 (0) Number of backup sets in history: 1; groups (db): 1
+0140.386 (0) Examining (for databases) backup set with group_id=0, nonce=35a4140bcb19, datestamp=1735945607 (Jan 03 2025 23:06:47)
+0140.387 (0) This backup set is the backup set just made, so will not be deleted.
+0140.387 (0) Number of backup sets in history: 1; groups (files): 1
+0140.387 (0) Examining (for files) backup set with nonce=35a4140bcb19, datestamp=1735945607 (Jan 03 2025 23:06:47)
+0140.387 (0) This backup set is the backup set just made, so will not be deleted.
+0140.388 (0) This backup set is the backup set just made, so will not be deleted.
+0140.388 (0) This backup set is the backup set just made, so will not be deleted.
+0140.388 (0) This backup set is the backup set just made, so will not be deleted.
+0140.388 (0) This backup set is the backup set just made, so will not be deleted.
+0140.388 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0140.389 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0140.391 (0) Resume backup (35a4140bcb19, 0): finish run
+0140.394 (0) Decremented the semaphore (fd) by 1
+0140.395 (0) Semaphore (fd) unlocked
+0140.396 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0140.399 (0) No email will/can be sent - the user has not configured an email address.
+0140.400 (0) The backup succeeded and is now complete
+0000.000 (1) Opened log file at time: Fri, 03 Jan 2025 23:11:54 +0000 on https://info.solvoz.com
+0000.001 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.12 WP: 6.7.1 PHP: 8.0.30 (litespeed, Linux just2010.justhost.com 4.19.286-203.ELK.el7.x86_64 #1 SMP Wed Jun 14 04:33:55 CDT 2023 x86_64) MySQL: 5.7.23-23 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 20.6M | 22M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.070 (1) Free space on disk containing Updraft's temporary directory: 147686.8 MB
+0000.072 (1) Requesting backup semaphore lock (35a4140bcb19)
+0000.074 (1) [Debug] Lock option (updraft_lock_35a4140bcb19, blZ_options) was created in the database
+0000.074 (1) [Info] Lock (updraft_lock_35a4140bcb19, blZ_options) acquired after initialising the database
+0000.075 (1) This backup task (35a4140bcb19) is either complete or began over 2 days ago: ending (1735945914.2614, ) (existing jobdata keys: )

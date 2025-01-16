@@ -1,0 +1,242 @@
+/*
+Theme Name: Sinatra Child
+Template: sinatra
+Author: Sinatra Team
+Description: Sinatra is a lightweight and highly customizable multi-purpose theme that makes it easy for anyone to create their perfect website. You can use it for any type of website from blogs, businesses, online shops, creatives, hotels, restaurants, startups and more. With Sinatra you get the perfect blend of performance, modern design and powerful, yet simple to use options. Works perfectly with the new block editor (Gutenberg) and your favorite plugins such as: WooCommerce, JetPack, page builders, SEO plugins and others. It comes with microdata integration, unlimited colors, multiple layouts, pre-built demo websites and so much more. It's also translatable and built with best SEO practices. Try Sinatra theme today on https://try.sinatrawp.com
+Tags: two-columns,right-sidebar,left-sidebar,footer-widgets,blog,news,custom-background,custom-menu,post-formats,sticky-post,editor-style,threaded-comments,translation-ready,custom-colors,featured-images,full-width-template,microformats,theme-options,e-commerce
+Version: 1.2.1.1663737210
+Updated: 2022-09-21 05:13:30
+
+*/
+.tabset > input[type="radio"] {
+  position: absolute;
+  left: -200vw;
+}
+.recents_post img {
+    height: 130px !important;
+    object-fit: cover;
+}
+.single .entry-footer,.single .author-box,.single .post-nav,.single section#comments {
+    display: none !important;
+}
+/* .single  .entry-content.si-entry > p:first-child::first-letter, .single  .entry-content.si-entry  .elementor-element:first-child > .elementor-widget-container >  p:first-of-type::first-letter{
+    -webkit-initial-letter: 3;
+    initial-letter: 3;
+    color: #EA5B0B;
+    font-weight: bold;
+    margin-right: 0.75em;
+	text-transform:uppercase;
+} */
+
+.paraFonts  p:first-of-type::first-letter{ 
+    -webkit-initial-letter: 3;
+    initial-letter: 3;
+    color: #EA5B0B;
+    font-weight: bold;
+    margin-right: 0.75em;
+	text-transform:uppercase;
+ 
+}
+
+.single .entry-content.si-entry .elementor-widget-container > p:first-of-type{
+	margin-top:0;
+}
+.single .entry-content.si-entry img{
+	max-width:100% !important;
+}
+
+.single-post .page-header{
+	background-position:top !important;
+}
+.articles_story .post-meta-list .icon,.recents_post .post-meta-list .icon {
+    position: relative;
+    top: 2px;
+}
+.single #primary, .single #secondary {
+    margin-bottom: 0px !important; 
+}
+
+.single-post.sinatra-sidebar-position__right-sidebar #primary {
+    padding-right: 10px;
+}
+
+.single #primary p{
+	color:#414648;
+}
+aside#secondary p {
+    margin: 0;
+    padding: 0;
+}
+
+.articles_story .elementskit-post-image-card {
+    height: 100%;
+}
+.articles_story .col-lg-4.col-md-6 {
+    margin-bottom: 30px;
+}
+.tabset .tab-panel {
+  display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+  display: block;
+}
+.tabset > label {
+  position: relative;
+  display: inline-block;
+  padding: 15px 15px 25px;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tabset > label::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 22px;
+  height: 4px;
+  background: #8d8d8d;
+}
+
+.tabset > label:hover,
+.tabset > input:focus + label {
+  color: #06c;
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+  background: #06c;
+}
+
+.tabset > input:checked + label {
+  border-color: #ccc;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+}
+
+.tab-panel {
+  padding: 30px 0;
+  border-top: 1px solid #ccc;
+}
+
+/*
+ Demo purposes only
+*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+div.mytable {
+    display: table;
+    width: 100%;
+}
+
+div.mytable > div {
+    display: table-row;
+    width: 100%;
+}
+div.mytable > div > div {
+    display: table-cell;
+    width: 20%;
+    padding:1em;
+}
+
+.procure_flow:before {
+    content: "";
+    height: 50px;
+    border: 1px solid #fff;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+    top: -32px;
+}
+.procure_flow .elementor-widget-container {
+    min-height: 232px;
+}
+.procure_flow .elementor-widget-container {
+    position: relative;
+    z-index: 2;
+}
+.blogMain .respond_tender p {
+	overflow: unset !important;
+	display: unset !important;
+}
+.blogMain .respond_tender h2 {
+    min-height: unset !important;
+}
+
+/* ====== Menu Design Change ========= */
+.elementor-section-full_width.header-section * {
+    font-family: "Nunito Sans",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif !important;
+}
+
+.header-section .menu-btn-section a.elementor-button {
+    height: 33.33px;
+    padding: 9px 15px !important;
+}
+.header-section .menu-btn-section .elementor-button .elementor-align-icon-right{
+/* 	    margin-top: -2px; */
+}
+.header-section .menu-btn-section a.elementor-button span.elementor-button-icon i {
+    font-size: 10px;
+}
+.header-section .menu-btn-section a.elementor-button span.elementor-button-icon .icon.icon-down-arrow1::before {
+    font-weight: 600;
+}
+
+
+.header-section li ul.sub-menu a.hfe-sub-menu-item:hover {
+    background: #dedede !important;
+}
+.elementor-section-full_width.header-section i, .elementor-section-full_width.header-section i {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+@media only screen and (min-width:1024px){
+	.header-section  ul.sub-menu {
+    padding: 12px;
+}
+	
+.header-section  ul.sub-menu {
+    min-width: 150px;
+    width: max-content !important;
+	    left: -7px !important;
+}
+.header-section li .sub-menu li.menu-item:first-child {
+    border-radius: 0 !important;
+}
+}
+
+@media screen and (max-width:1024px){
+	.mobliemenu ul.hfe-nav-menu {
+		padding-bottom: 16px;
+	}
+	.bordercls a.hfe-menu-item {
+		border-bottom: 1px solid #dad6d4 !important;
+		margin: 0 35px 12px 18px;
+	}
+		.btn-white a.hfe-menu-item, .btn-orange a.hfe-menu-item {
+			background-image: url(/wp-content/uploads/2022/09/arrows.svg);
+			top: -2px;
+			left: -3px;
+			position: relative;
+			background-repeat: no-repeat;
+			background-position: right;
+			margin: 0 27px 0 3px;
+			font-weight: 600 !important;
+		}
+	.hfe-nav-menu__breakpoint-tablet .hfe-menu-toggle:hover {
+    border: 0;
+}
+	
+}

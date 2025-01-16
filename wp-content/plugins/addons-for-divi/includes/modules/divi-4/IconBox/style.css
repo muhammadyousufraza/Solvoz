@@ -1,0 +1,45 @@
+.dtq-iconbox {
+	position: relative;
+	display: block;
+	color: initial;
+}
+
+.dtq-iconbox-inner {
+	border-style: solid;
+}
+.dtq-iconbox__icon-wrap {
+	display: flex;
+}
+.dtq-iconbox__icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.2s all ease;
+	border-style: solid;
+	justify-content: center;
+	align-items: center;
+	font-style: normal;
+}
+
+.dtq-iconbox__icon i {
+	font-style: normal;
+}
+
+.dtq-iconbox__icon img {
+	transform-origin: center;
+	display: inline-block;
+	transition: 0.2s all ease;
+	vertical-align: middle;
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+}
+
+.dtq-iconbox__badge {
+	position: absolute;
+	border-style: solid;
+}
+
+.dtq-iconbox__desc {
+	font-size: 14px;
+}

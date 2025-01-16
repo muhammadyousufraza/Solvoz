@@ -1,0 +1,29 @@
+.dtq-alert {
+	display: flex;
+}
+
+.dtq-alert-content {
+	flex: 1 1;
+}
+
+.dtq-alert-icon {
+	border-style: solid;
+}
+
+.dtq-alert-icon i {
+	font-style: normal !important;
+}
+
+.dtq-alert-dismiss {
+	cursor: pointer;
+}
+.dtq-alert-title {
+	line-height: 1.7em;
+}
+.dtq-alert-desc {
+	font-size: 14px;
+}
+
+.dtq-alert .dtq-et-icon:before {
+	display: none !important;
+}

@@ -1,0 +1,445 @@
+<wpml-config>
+    <built-with-page-builder>/\[(et_pb_section|et_pb_row|et_pb_column)/</built-with-page-builder>
+    <shortcode-list>difl_advanced_blurb, difl_advanced_person, difl_businesshoursitem, difl_imagemask, difl_floatimageitem
+    difl_advancedtabitem, df_adh_heading, dfadh_heading_anim, difl_businesshours,
+    difl_compareimage, difl_contentcarouselitem, difl_dual_button, difl_flipbox, difl_hoverbox,
+    difl_imageaccordionitem, difl_imagehover, difl_imagehotspot, difl_imagehotspotitem, difl_imagecarouselitem, difl_justifiedgallery, difl_packerygallery,
+    difl_testimonialcarouselitem, difl_tiltcard, difl_typewriter_text, difl_productgrid, difl_product_carousel, difl_productitem,
+    difl_cptfilter, difl_cptgrid, difl_cptitem, difl_contentswitcher, difl_scrollimage, difl_iconlistitem,
+    difl_breadcrumbs, difl_imagegallery, difl_imagegalleryitem, difl_postgrid, difl_postitem, difl_instagramgallery, difl_divider, difl_advancedmenuitem,
+    difl_timeline, difl_timelineitem, difl_marqueetextitem
+    </shortcode-list>
+    <shortcodes>
+        <shortcode>
+            <tag>difl_advanced_blurb</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>sub_title</attribute>
+                <attribute>button_text</attribute>
+                <attribute type="media-url">image</attribute>
+                <attribute>alt_text</attribute>
+				<attribute>badge</attribute>
+				<attribute>badge_text_2</attribute>
+                <attribute type="link">button_url</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_advanced_person</tag>
+            <attributes>
+                <attribute>ap_name</attribute>
+                <attribute>ap_role</attribute>
+                <attribute encoding="allow_html_tags">ap_description</attribute>
+                <attribute type="media-url">ap_photo</attribute>
+                <attribute>photo_alt_text</attribute>
+                <attribute type="media-url">ap_alternative_photo</attribute>
+                <attribute>alternative_photo_alt_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_advancedtabitem</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>subtitle</attribute>
+                <attribute>content</attribute>
+                <attribute>at_button_button_text</attribute>
+                <attribute type="link">at_button_button_url</attribute>
+                <attribute type="media-url">tab_image</attribute>
+                <attribute type="media-url">image</attribute>
+                <attribute>alt</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>df_adh_heading</tag>
+            <attributes>
+                <attribute>title_prefix</attribute>
+                <attribute>title_infix</attribute>
+                <attribute>title_suffix</attribute>
+                <attribute>custom_text_input</attribute>
+                <attribute>divider_image_alt_text</attribute>
+                <attribute type="media-url">divider_image</attribute>
+            </attributes>
+        </shortcode>
+                <shortcode>
+            <tag>difl_businesshours</tag>
+            <attributes>
+                <attribute>heading_title_text </attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_businesshoursitem</tag>
+            <attributes>
+                <attribute>day_name</attribute>
+                <attribute>off_day_text</attribute>
+                <attribute>time</attribute>
+                <attribute>start_time</attribute>
+                <attribute>end_time</attribute>
+                <attribute>time_separetor</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>dfadh_heading_anim</tag>
+            <attributes>
+                <attribute>title_prefix</attribute>
+                <attribute>title_suffix</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_compareimage</tag>
+            <attributes>
+                <attribute type="media-url">before_image</attribute>
+                <attribute type="media-url">after_image</attribute>
+                <attribute>before_image_alt_text</attribute>
+                <attribute>after_image_alt_text</attribute>
+                <attribute>cm_before_lebel_text</attribute>
+                <attribute>cm_after_lebel_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_contentcarouselitem</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>sub_title</attribute>
+                <attribute>cc_button_button_text</attribute>
+                <attribute type="link">cc_button_button_url</attribute>
+                <attribute type="media-url">df_cci_image</attribute>
+                <attribute>df_cci_alt_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_dual_button</tag>
+            <attributes>
+                <attribute>left_button</attribute>
+                <attribute>right_button</attribute>
+                <attribute type="link">left_button_url</attribute>
+                <attribute type="link">right_button_url</attribute>
+                <attribute>separator_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_flipbox</tag>
+            <attributes>
+                <attribute>title_front</attribute>
+                <attribute>title_back</attribute>
+                <attribute encoding="allow_html_tags">content_back</attribute>
+                <attribute>fb_btn_button_text</attribute>
+                <attribute type="link">fb_btn_button_url</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_hoverbox</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>sub_title</attribute>
+                <attribute encoding="allow_html_tags">content</attribute>
+				<attribute>hb_btn_button_text</attribute>
+                <attribute type="link">hb_btn_button_url</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_imageaccordionitem</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>sub_title</attribute>
+                <attribute>image_alt_text</attribute>
+                <attribute encoding="allow_html_tags">description</attribute>
+                <attribute encoding="allow_html_tags">ia_button_button_text</attribute>
+                <attribute type="link">ia_button_button_url</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_imagehotspot</tag>
+            <attributes>
+                <attribute>hotsopt_image_alt_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_imagehotspotitem</tag>
+            <attributes>
+                <attribute>spot_text</attribute>
+                <attribute>image_alt_text</attribute>   
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_imagecarouselitem</tag>
+            <attributes>
+                <attribute>caption</attribute>
+                <attribute>ic_button_button_text</attribute>
+                 <attribute type="link">ic_button_button_url</attribute>
+                 <attribute type="media-url">image</attribute>
+				<attribute>alt_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_imagehover</tag>
+            <attributes>
+                <attribute>title_text</attribute>
+                <attribute type="media-url">image</attribute>
+                <attribute>alt</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_imagemask</tag>
+            <attributes>
+                <attribute type="media-url">image</attribute>
+                <attribute>alt_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_floatimageitem</tag>
+            <attributes>
+                <attribute type="media-url">image</attribute>
+                <attribute>alt_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_justifiedgallery</tag>
+            <attributes>
+                <attribute>load_more_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_packerygallery</tag>
+            <attributes>
+                <attribute>load_more_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_testimonialcarouselitem</tag>
+            <attributes>
+                <attribute>author</attribute>
+                <attribute>job_title</attribute>
+                <attribute>company</attribute>
+                <attribute type="link">company_url</attribute>
+                <attribute type="media-url">company_logo</attribute>
+                <attribute type="media-url">image</attribute>
+                <attribute>author_image_alt_text</attribute>
+                <attribute>company_logo_alt_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_tiltcard</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>tc_btn_button_text</attribute>
+                <attribute type="link">tc_btn_button_url</attribute>
+                <attribute type="media-url">image_image</attribute>
+                <attribute>image_alt_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_typewriter_text</tag>
+            <attributes>
+                <attribute>prefix</attribute>
+                <attribute>typed_text_list</attribute>
+                <attribute>suffix</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_productgrid</tag>
+            <attributes>
+                <attribute>on_sale_text</attribute>
+                <attribute>after_sale_text</attribute>
+				<attribute>custom_soldout_text</attribute>
+            </attributes>
+        </shortcode>
+		 <shortcode>
+            <tag>difl_product_carousel</tag>
+            <attributes>
+                <attribute>on_sale_text</attribute>
+                <attribute>after_sale_text</attribute>
+				<attribute>custom_soldout_text</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>difl_productitem</tag>
+            <attributes>
+                <attribute>read_more_text</attribute>
+                <attribute>custom_text</attribute>
+				<attribute>add_to_cart_text</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>difl_cptfilter</tag>
+            <attributes>
+                <attribute>use_load_more_text</attribute>
+                <attribute>all_items_text</attribute>
+                <attribute>search_bar_button_text</attribute>
+                <attribute>search_bar_placeholder_text</attribute>
+                <attribute>prefix_multi_filter_label</attribute>
+                <attribute>single_label_text</attribute>
+                <attribute>multi_filter_dropdown_placeholder_prefix</attribute> 
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>difl_cptgrid</tag>
+            <attributes>
+                <attribute>older_text</attribute>
+                <attribute>newer_text</attribute>
+
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>difl_cptitem</tag>
+            <attributes>
+                <attribute>read_more_text</attribute>
+                <attribute>custom_text</attribute>
+                <attribute>acf_before_label</attribute>
+                <attribute>acf_after_label</attribute>
+                <attribute>acf_email_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_contentswitcher</tag>
+            <attributes>
+                <attribute>primary_label_title</attribute>
+                <attribute>secondary_label_title</attribute>
+                <attribute>primary_badge_text</attribute>
+                <attribute>secondary_badge_text</attribute>
+                <attribute encoding="allow_html_tags">secondary_content</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_scrollimage</tag>
+            <attributes>
+                <attribute>badge_text</attribute>
+                <attribute>caption_text</attribute>
+                <attribute type="link">link_url</attribute>
+                <attribute type="media-url">scroll_image</attribute>
+                <attribute type="media-url">different_lightbox_image</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_iconlistitem</tag>
+            <attributes>
+                <attribute>list_item_title</attribute>
+                <attribute>list_item_icon_text</attribute>
+                <attribute>alt</attribute>
+                <attribute encoding="allow_html_tags">list_item_tooltip_content</attribute>
+                <attribute type="link">link_url</attribute>
+                <attribute type="media-url">list_item_title_url</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_breadcrumbs</tag>
+            <attributes>
+                <attribute>home_text</attribute>
+                <attribute>separator_text</attribute>
+                <attribute>page_title</attribute>
+                <attribute>search_title</attribute>
+                <attribute>error_404_title</attribute>
+                <attribute type="link">page_custom_url</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_imagegallery</tag>
+            <attributes>
+                <attribute>load_more_text</attribute>
+                <attribute>filter_nav_all_button</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_imagegalleryitem</tag>
+            <attributes>
+                <attribute>gallery_title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_postgrid</tag>
+            <attributes>
+                <attribute>older_text</attribute>
+                <attribute>newer_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_postitem</tag>
+            <attributes>
+                <attribute>read_more_text</attribute>
+                <attribute>custom_text</attribute>
+                <attribute>acf_before_label</attribute>
+                <attribute>acf_after_label</attribute>
+                <attribute>acf_url_text</attribute>
+                <attribute>acf_email_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_instagramgallery</tag>
+            <attributes>
+                <attribute>load_more_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_divider</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>image_alt_text</attribute>
+                <attribute type="media-url">image_as_icon</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>difl_advancedmenuitem</tag>
+            <attributes>
+                <attribute>button_text</attribute>
+                <attribute>placeholder</attribute>
+                <attribute>content</attribute>
+                <attribute>logo_alt</attribute>
+                <attribute>icon_link_title</attribute>
+                <attribute type="link">icon_box_url</attribute>
+                <attribute type="link">button_url</attribute>
+                <attribute type="link">logo_url</attribute>
+                <attribute type="media-url">logo_upload</attribute>
+                <attribute type="media-url">sticky_logo</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>difl_timeline</tag>
+            <attributes>
+                <attribute>line_top_txt</attribute>
+                <attribute>line_top_img_alt_txt</attribute>
+                <attribute>line_bottom_txt</attribute>
+                <attribute>line_bottom_img_alt_txt</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>difl_timelineitem</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>sub_title</attribute>
+                <attribute>date_title</attribute>
+                <attribute>date_sub_title</attribute>
+                <attribute>button_text</attribute>
+                <attribute>content_image_alt_text</attribute>
+                <attribute>marker_img_alt_txt</attribute>
+                <attribute>marker_img_alt_txt</attribute>
+                <attribute>marker_txt</attribute>
+                <attribute type="link">button_url</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>difl_imagereveal</tag>
+            <attributes>
+                <attribute>alt</attribute>
+                <attribute>title_text</attribute>
+                <attribute type="link">field_link_url</attribute>
+                <attribute>field_hover_content_title_text</attribute>
+                <attribute>field_hover_content_desc_text</attribute>
+                <attribute>field_caption_title</attribute>
+            </attributes>
+        </shortcode>
+
+        <shortcode>
+            <tag>difl_marqueetextitem</tag>
+            <attributes>
+                <attribute>text</attribute>
+                <attribute>text_img_alt_txt</attribute>
+            </attributes>
+        </shortcode>
+
+    </shortcodes>
+</wpml-config>

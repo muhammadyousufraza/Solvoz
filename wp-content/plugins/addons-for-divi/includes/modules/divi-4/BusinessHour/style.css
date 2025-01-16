@@ -1,0 +1,45 @@
+.dtq-business-hour-day,
+.dtq-business-hour-hour {
+    line-height: 1;
+}
+.dtq-business-hour-child {
+    border-style: solid;
+}
+.dtq-business-hour-title {
+    border-style: solid;
+}
+
+.dtq-business-hour-title h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+}
+
+.dtq-business-hour-day,
+.dtq-business-hour-time {
+    font-size: 14px;
+}
+
+.ba_business_hour
+    .dtq-business-hour
+    .dtq-business-hour-content
+    .ba_business_hour_child:last-child {
+    margin-bottom: 0 !important;
+}
+
+.ba_business_hour
+    .dtq-business-hour
+    .dtq-business-hour-content
+    .ba_business_hour_child:last-child:after {
+    display: none;
+    opacity: 0;
+}
+
+.ba_business_hour_child {
+    position: relative;
+}
+
+.ba_business_hour_child:after {
+    width: 100%;
+    left: 0;
+}

@@ -1,0 +1,25 @@
+.dtq-dual-btn {
+    display: flex;
+    width: 100%;
+}
+.dtq-btn-wrap {
+    position: relative;
+    display: flex;
+}
+.dtq-btn__connector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dtq-btn__connector--icon,
+.dtq-btn__connector--text {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateX(50%) translateY(-50%);
+    z-index: 99;
+}
+
+.btn-el {
+    display: inline-block;
+}

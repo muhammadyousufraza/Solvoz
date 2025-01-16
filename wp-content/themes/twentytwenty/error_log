@@ -1,0 +1,16 @@
+[04-May-2024 14:09:14 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/solvozco/public_html/info/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home4/solvozco/public_html/info/wp-content/themes/twentytwenty/404.php on line 10
+[22-Jun-2024 13:49:25 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/solvozco/public_html/info/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home4/solvozco/public_html/info/wp-content/themes/twentytwenty/404.php on line 10
+[05-Oct-2024 13:42:23 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/solvozco/public_html/info/wp-content/themes/twentytwenty/functions.php:150
+Stack trace:
+#0 {main}
+  thrown in /home4/solvozco/public_html/info/wp-content/themes/twentytwenty/functions.php on line 150
+[14-Oct-2024 08:12:01 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/solvozco/public_html/info/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home4/solvozco/public_html/info/wp-content/themes/twentytwenty/404.php on line 10

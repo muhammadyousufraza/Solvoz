@@ -1,0 +1,7 @@
+.ba_skill_bar .dtq-skill .ba_skill_bar_child:last-child {
+    margin-bottom: 0 !important;
+}
+
+.dtq-skillbar__inner__text {
+    font-size: 14px;
+}

@@ -1,0 +1,57 @@
+.dtq-review {
+	display: flex;
+}
+
+.dtq-stars-wrap {
+	font-size: 30px;
+	position: relative;
+	display: inline-block;
+	line-height: 0.9;
+}
+
+.dtq-stars-wrap .dtq-star {
+	display: inline-block;
+	line-height: 0.9;
+}
+
+.dtq-stars-inact {
+	white-space: nowrap;
+}
+
+.dtq-stars-act {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: var(--active-width);
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.dtq-ratings {
+	display: flex;
+	align-items: center;
+}
+
+.dtq-ratings-number {
+	padding-top: 5px;
+}
+
+.dtq-rating-figure {
+	border-style: solid;
+	position: relative;
+}
+
+.dtq-rating-star-desc {
+	font-size: 14px;
+}
+
+@media (max-width: 767px) {
+	.dtq-review {
+		display: block;
+	}
+}
+.dtq-review-badge {
+	font-size: 13px;
+	border-style: solid;
+	white-space: nowrap;
+}

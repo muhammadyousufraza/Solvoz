@@ -1,0 +1,626 @@
+Version 1.4.5
+- Introduced: ACF Gallery Module.
+- Improved: Advanced DataTable - Rowspan, Colspan added for google sheet.
+- Improved: CPT Filter - Filter functionality enhanced.
+- Improved: CPT Filter - Responsive view on smaller device added.
+- Improved: Testimonial Carousel - Author header tag option added.
+- Improved: Advanced Tab - Header tag option for nav title text.
+- Improved: Filterable CPT - Toggle for make clickable entire item.
+- Fixed: Divi builder plugin with other theme issue resolved.
+- Fixed: Mega menu export issue with library item resolved.
+- Fixed: Lottie - Scroll to reveal Issues resolved.
+- Fixed: Menu creation when no menu selected handled.
+- Fixed: Advanced Menu - Search item functionalities handled for all content.
+- Fixed: Admin notices handled for dashboard.
+- Fixed: Advanced Tab - CPT as library item on tab content layout issue handled.
+- Fixed: Post Grid - Author image size not working handled.
+- Fixed: Post Grid - Active pagination style on existing design resolved.
+- Fixed: MarqueeText - Image rendering issue with safari browser handled.
+- Fixed: Post List - Load more button translation issue resolved.
+- Fixed: Advanced Gallery - Lightbox content missing issue resolved.
+- Fixed: Advanced Gallery - Icon on pagination with builder view only handled.
+- Fixed: Advanced Gallery - Content outside option with border issue resolved.
+- Fixed: Flip Box - Animation issues resolved.
+- Fixed: Advanced Tab - PHP warning handled.
+- Fixed: Popup - Target through link url issue resolved.
+- Fixed: CPT Module - PHP warning resolved.
+- Fixed: CPT Grid - Scroll to load issues resolved.
+- Fixed: Module name and icon overlap on TB resolved.
+
+Version 1.4.4
+- Improved: Advanced Menu - Separate design options for every parent-menu and sub-menu.
+- Improved: Taxonomy support added for menu export import.
+- Improved: Advanced Menu - Nav icon color control on sticky mode.
+- Improved: Popup - Element position for scroll trigger type.
+- Improved: Product Grid - Sorting control has been added.
+- Improved: Product Grid - Query search functionalities added.
+- Improved: Advanced Tab - URL link for individual tab item.
+- Improved: Advanced Tab - Control for selecting active tab item.
+- Improved: Timeline - Marker image responsive control added.
+- Improved: Advanced Carousel - Dot's vertical position option added.
+- Improved: Advanced Carousel - Autoplay control added for different devices.
+- Improved: Advanced Carousel - Icon border, box-shadow and spacing added.
+- Improved: Advanced Carousel - Arrow icon border & box-shadow control added.
+- Improved: Advanced Carousel - Content style option enhanced.
+- Improved: Text Highlighter - Custom CSS option added for prefix, infix and suffix.
+- Improved: Image Carousel - Dot spacing added and field order changed.
+- Improved: CPT Carousel - Control for entire item clickable.
+- Improved: All carousels - Arrow navigation disable for last child.
+- Improved: All carousels - Autoplay will start after appearing into viewport.
+- Fixed: Missing images issue resolved during export-import library.
+- Fixed: Fa icon issue when dynamic css enable resolved.
+- Fixed: Lazy load issue with various cache plugin handled.
+- Fixed: WooCommerce Product import conflict with default importer handled.
+- Fixed: Popup - Editing experience broken design with static file generation resolved.
+- Fixed: Module styles taking image while copying.
+- Fixed: Advanced Menu - Nested sub-menu overflow scroll issue resolved.
+- Fixed: Advanced Menu - Nested sub-menu height issue resolved.
+- Fixed: Advanced Menu - Tooltip display issue with rounded-corner handled.
+- Fixed: Advanced Menu - Different visual on VB and front-end issue fixed.
+- Fixed: Filterable CPT - Author image, name alignment issue handled.
+- Fixed: Advanced Tab - Alt text not working on tab item image resolved.
+- Fixed: Advanced List - Item wrapper margin issue with section handled.
+- Fixed: Post Carousel - Conflict with shortcode when use content excerpt resolved.
+- Fixed: Product Grid & Product Carousel behaviour overlapping issue fixed.
+- Fixed: Timeline - Arrow position during page load handled.
+- Fixed:  FAQ - Schema generation merging issue resolved.
+- Fixed:  FAQ - Schema generation merging issue resolved.
+- Fixed:  FAQ - Bottom space conflict with builder template handled.
+- Fixed:  Gravity Form Styler - Checkbox gap issue resolved.
+- Fixed:  Advanced Menu - Nested menu horizontal scroll issue on hover fixed.
+
+
+Version 1.4.3
+- Introduced: TextHighlighter Module.
+- Introduced: Menu export import feature added.
+- Improved: Dashboard responsive design.
+- Improved: Settings export import option added on dashboard.
+- Improved: Popup import functionality added on layout import.
+- Improved: Advanced Gallery - Caption and description position (Outside-Top,Bottom) added.
+- Improved: Advanced Gallery - Image Orientation (Landscape, Portrait) added.
+- Improved: Advanced Gallery - Icon on hover state added.
+- Improved: Advanced Gallery - Pagination option added.
+- Improved: Advanced Gallery - Page change scroll to top
+- Improved: CPT (Filter, Carousel, Grid) - MetaBox plugin fields support added.
+- Improved: CPT Filter - ACF field support added for multi-filter.
+- Improved: CPT Filter - Multiple field types support added for multi-filter.
+- Improved: CPT Filter - Multi-filter container position added.
+- Improved: CPT (Filter, Carousel, Grid) - Custom text for before after on taxonomy added.
+- Improved: CPT (Filter, Carousel, Grid) - Custom taxonomy separator added.
+- Improved: CPT Filter - Multiple loading animation option added.
+- Improved: CPT Filter - Load more button hidden control without content.
+- Improved: CPT ( Filter, Grid ) - Order & Sorting by menu-order added.
+- Improved: CPT Grid - Scroll to load option added.
+- Improved: CPT Grid - Loading animation on scroll & on load added.
+- Fixed: CPT Filter - Before after text related issues resolved.
+- Fixed: CPT Filter - All search & load more related issues handled.
+- Fixed: CPT Filter - Single post filter field design issues handled.
+- Fixed: CPT Filter - Container issues with multi filter option resolved.
+- Fixed: CPT Filter - Responsive, border & radius related issues resolved.
+- Fixed: CPT Filter - Various Issues with dropdown field.
+- Fixed: Advanced Gallery - Blinking & JS related issues handled
+- Fixed: Fallback license issue resolved.
+- Fixed: Before After Slider - Vertical alignment display issue handled.
+- Fixed: Conflict with learndash editor resolved.
+- Fixed: Extra theme with dashboard issue resolved.
+- Fixed: Popup - Multisite installation issue handled.
+- Fixed: Advanced Gallery - Custom url issue resolved.
+- Fixed: Icon issue with popup-close and FAQ module resolved.
+- Fixed: CPT Grid - Offset not working issue resolved.
+- Fixed: Advanced List - Icon horizontal placement issue fixed.
+- Fixed: Gravity Form Styler - Email & Phone field selector issue added.
+- Fixed: LottiImage - Issue with modal notification resolved.
+- Fixed: LottiImage - Library script updated to latest version.
+- Fixed: Testimonial Carousel - Background image no-repeat handled.
+- Fixed: Post Carousel - Post for current page option not working.
+- Fixed: Breadcrumbs - Issue with maintenance mode handled.
+
+Version 1.4.2
+- Fixed: CPT Filter - Order issue anomaly handled.
+- Fixed: Shortcode - Missing DF shortcode on dashboard fixed.
+- Fixed: Timeline - Timeline module missing json added.
+- Fixed: Post List - Responsive, pagination, color, border & other style issues resolved.
+- Fixed: Post Grid - Divider, color, pagination, responsive & other style issues resolved.
+- Fixed: Advanced Gallery - Gallery modules custom url saving issue handled.
+- Fixed: Product Grid - Added missing args for WooCommerce filters.
+
+Version 1.4.1
+- Introduced: New Dashboard with layout importer.
+- Added: Advanced Gallery - Dynamic gallery item through media category.
+- Added: Advanced Gallery - Multiselect category option which will be ordered.
+- Added: Advanced Gallery - Toggle for hide all option in filtering mode.
+- Added: Page category for managing pages for layout & other purpose.
+- Improved: Popup - Popup will preview and display on blank template.
+- Improved: Popup - Added support for WPML.
+- Improved: CPT - Search query conflict with main query resolved.
+- Fixed: CPT - Category ordering & sorting issues handled.
+- Fixed: CPT - Taxonomy issue with load more & navigation handled.
+- Fixed: Logo Carousel - Blank image markup display issue resolved.
+- Fixed: Image Carousel - Blank image markup display issue resolved.
+- Fixed: WPFORMS - Form loading issues resolved on VB.
+- Fixed: FAQ - Active item order anomaly resolved.
+- Fixed: Menu Dashboard unmount issue resolved.
+- Fixed: Device detect library conflict resolved.
+- Fixed: Dual Button - Typo handled in wording.
+- Fixed: Popup - Popup close with mobile device handled.
+- Fixed: Popup - Handled video element controls.
+
+Version 1.4.0
+- Introduced: ImageReveal Module.
+- Introduced: MarqueeText Module.
+- Improved: Popup - Condition settings search functionality enhanced.
+- Improved: Popup - Content type search functionality enhanced for performance.
+- Fixed: Popup - Default all selection not working resolved.
+- Fixed: Popup - Settings page visibility issue fixed with introduced settings.
+- Fixed: Popup - Import with multiple trigger design issue handled.
+- Fixed: Advanced Menu - Select icon design issues with WP 6.4 handled.
+
+Version 1.3.9
+- Introduced: PostList Module.
+- Introduced: GravityForm Styler.
+- Added: Popup - Two more trigger type added on scroll behaviour.
+- Fixed: Popup - Dismiss button margin issues resolved.
+- Fixed: Popup - Automatic scroll up issues fixed when click on a button.
+- Fixed: Popup - Usage of multiple trigger button on a single page issue handled.
+- Fixed: Gallery - Parallax not working on both VB & frontend handled.
+- Fixed: Advanced Gallery - Row setting for image item in responsive mode on VB issue resolved.
+- Fixed: Advanced Gallery - Switching to view mode on VB handled properly.
+- Fixed: Advanced Gallery - Image caption position issue on VB responsive mode fixed.
+- Fixed: Advanced Gallery - Handled button text size.
+- Fixed: Justified Gallery - Load more with extra dummy image load issues solved.
+- Fixed: Packery Gallery - Note added for small device view not available on VB.
+- Fixed: Packery Gallery - Tablet view on VB not working fixed.
+- Fixed: Packery Gallery - Issues with desktop mode on VB & frontend not same resolved.
+- Fixed: Packery Gallery - Item number with device type not working as expected resolved.
+
+Version 1.3.8
+-Fixed: Product Grid - Image item fetching issues resolved.
+-Fixed: Advanced Menu - Menu settings meta handled properly.
+-Fixed: Border Radius with wpformstyler issues resolved.
+
+Version 1.3.7
+- Introduced: Timeline Module.
+- Added: CPT Filter - Introduced an ordering option, allowing items to be sorted alphabetically from A to Z or Z to A.
+- Added: CPT Filter - Included an option to customize the message displayed when no posts are available.
+- Added: Product Grid and Carousel - Added an option to disable image overlay on mobile.
+- Added: Image Hotspot - Introduced additional animation style options.
+- Added: Contact Form 7 Styler - Enabled module border and box shadow features.
+- Added: Advanced Heading - Implemented module animation feature.
+- Improved: Data Table - Added support for Row/Column merging and spanning.
+- Improved: Advanced Tab - Added a "Full Area" alignment option for navigation items.
+- Improved: Image Hotspot - Eliminated unnecessary space with tooltip.
+- Improved: Filterable CPT - Eliminated unused scripts.
+- Improved: Instagram feed and Carousel - Removed optional Client ID and Client Secret field.
+- Improved: Text and font styling in various modules.
+- Fixed: Popup Extension - Resolved the issue of the module settings toolbar disappearing in the Visual Builder when using Popup click selector (class or ID) in the module's CSS ID & Classes.
+- Fixed: Popup Extension - Resolved the Divi Page Settings option disappearance while Popup Extension is enabled.
+- Fixed: CPT Filter and CPT Grid - Background scaling not working.
+- Fixed: Filterable CPT - Resolved search functionality when taxonomy filters enabled.
+- Fixed: Data Table - Pagination button background color not working.
+- Fixed: Date format escaping handled for various CPT modules.
+- Fixed: WPForms - text & teaxarea background issues resolved.
+
+Version 1.3.6
+- Fixed: Popup Extension - Gradient Field doesn't work at WordPress 6.3.
+- Improved: Update URI add at plugin main file header.
+- Improved: Popup Extension - Disable Scrolling Not working in some situations.
+- Fixed: Data Table - At Divi Builder Plugins Table, head, body, and footer border styling is not working properly.
+- Fixed: Advanced list - Default Border issue at Divi Builder plugin.
+- Improved: Data Table - incorrect source shown at the console when using Data Table Library style.
+
+Version 1.3.5
+- Added: Popup Extension - Popup Export and Import system.
+- Added: Popup Extension - Popup Close Animation settings and implement amination when closing the popup.
+- Added: Popup Extension - Popup content scroll enable setting.
+- Added: Advanced Menu - Divi Layout Border and Box shadow Style apply with Submenu Container Border and Box shadow.
+- Added: Advanced Manu - Show icon on hover for button element.
+- Added: Advanced Menu - Line space between the Menu item at hover Animation setting.
+- Fixed: Advanced Menu - Item Disable Settings doesn't work on Visual Builder.
+- Fixed: Menu Dashboard - Mega Menu Layout Column label change.
+- Improved: Advanced Menu - Top Row, Center Row, Bottom Row Margin, and Padding Important option removed.
+- Fixed: WPForms Styler - Name label styling issue.
+- Added: Post Grid - Before Text and After Text for Author, Comment, and Date elements.
+- Added: Post Carousel - Before Text and After Text for Author, Comment, and Date elements.
+- Improved: Testimonial Carousel - User can add star rating value with rating range.
+- Improved: Advanced Carousel - Default Padding value set at custom spacing of Title.
+- Fixed: Filterable CPT - At Multi Filter Setting, doesn't show all post from all term ID of selected taxonomies but show post from the first term ID in Visual Builder.
+- Fixed- Popup Extension - Close button border, border radius and padding margin issues.
+
+Version 1.3.4
+- Fixed: Popup Extension - Divi single Product image module not show at the popup.
+- Fixed: Popup Extension - CPT single post and archive page popup close not working.
+- Fixed: CPT (Filterable, grid, carousel) and Post (Grid, Carousel) Image Size 1080x675 not working.
+- Fixed: Post Grid - At Divi Builder Plugin Layout's columns Setting doesn't Work.
+- Fixed: Logo Carousel - At Divi Builder Plugin Auto move not working.
+- Added: Contact form 7 styler - Button Alignment Option.
+- Added: Contact form 7 styler - Settings for input field width control.
+- Improved: Popup Extension - Dependency applied for "Clickable Outside Popup Area" on "Move Close Button Inside Popup area".
+- Improved: Filterable CPT - 'All' text translatable and added settings for changing the text.
+
+Version 1.3.3
+- Fixed: Issue has been created when use below PHP version 7.4.
+
+Version 1.3.2
+- Introduced: Popup Extension.
+- Fixed: Advanced Blurb - On Tab device Image Container width conflict.
+- Fixed: Advanced Menu - WPML and Advanced Menu setting layout conflicts on menu dashboard.
+- Improved: Flip Box - Shortcode support at content Area for both Front and back side.
+
+Version 1.3.1
+- Added: Advanced Menu - Active state.
+- Added: Advanced Menu - Dynamic content support for Text.
+- Fixed: Advanced Menu - Mobile scrolling issue for layout as Submenu.
+- Improved: Filterable CPT - Muli filter taxonomies selected as Title from the slug.
+- Improved: Dual Button - Button Style option with responsiveness to do Horizontal/Vertical design.
+
+Version 1.3.0
+- Introduced: Advanced Menu Module.
+- Added: Advanced Blurb Module -Responsive feature for Image or Icon Position.
+- Added: WPForms Styler - Responsive options added on button alignment.
+- Added: WPForms Styler - Checkbox and Radio active color and spacing options.
+- Fixed: WPForms Styler - Button and input fields styling issues on frontend and Visual Builder.
+- Fixed: WPForms Styler - Show Error on builder when initiate this module.
+- Fixed: Product Grid and Product Carousel - Unnecessary overlay remove when using the extra theme.
+- Fixed: Product Grid and Product Carousel - Button doesn't clickable at full button area at child item.
+- Fixed: Post Grid and Post Carousel- Post image shows blurry when the image Size is set to Original.
+
+Version 1.2.10
+- Introduced: FAQ Module.
+- Added: Filterable CPT  - A loading animation that shows on the screen when the AJAX request will processed.
+- Added: CPT Grid - Related post feature with current terms added on taxonomies check list.
+- Added: Post Grid - Related post feature with current terms added on taxonomies check list.
+- Added: Post Carousel - Related post feature with current terms added on taxonomies check list.
+- Fixed: Advanced Tab - Advanced Tab nav container width mismatch when Sticky option add.
+- Fixed: Filterable CPT: Initial time load post from first term not all selected terms.
+- Improved: Advanced List- Lottie Library load when user use any Lottie icon.
+
+Version 1.2.9
+- Added: Advanced Divider  - Module Link Option.
+- Added: Advanced Tabs - Html support for tab description.
+- Added: Dashboard - "Active Modules" and "New" Module Control Label Added.
+- Added: CPT Grid, Filterable CPT and CPT Carousel -  Icon item added in all CPT modules.
+- Added: Advanced Blurb - "Ordered List Style Position" feature added at Content Desing Tab.
+- Added: Advanced Blurb- Content Heading Text Style feature.
+- Improved: Blog Carousel - Button Background color doesn't change but text color change on Container hover.
+- Fixed: Animated Heading: Notice Fixed while adding Text.
+- Fixed: Instagram Carousel and Instagram Feed - Instagram User Token Expire Issues fixed by caching set properly.
+- Fixed: Image Carousel and Instagram Carousel - At Visual Builder Element Position has broken when Cube and Loop enable.
+- Fixed: Post Carousel and Post Grid - Button Icon alignment issue.
+- Fixed: Advanced Person - Shows the Twitter logo when initiated the module at builder.
+- Fixed: Advanced Person - Unwanted html tag showing on frontend, when person alter image is not uploaded.
+
+Version 1.2.8
+- Introduced Star Rating Module
+- Added: WPML Support for All Modules.
+- Added: CPT Grid, Post Grid, Post Carousel - Overflow Feature.
+- Added: AdvancedTab - Content Area Style and Box Shadow toggle option at Child Item.
+- Fixed: Breadcrumbs - Icon Vertical Alignment Issue.
+- Fixed: AdvancedTab - Nav Container Placement and Content Vertical Align Issue.
+- Fixed: Before After Slider - Before Image and After Image Filter Isssue.
+- Fixed: Animated Heading - Html code show on change to Letter Animation at Visual Builder issue.
+- Fixed: Flipbox - At Divi Builder Plugins Flipbox Module doesn't work properly at Frontend.
+- Fixed: InstagramCarousel - Notice/Warning show issue at frontend.
+- Improved: Advanced Person - '%' Charecter showing issue at description area.
+
+Version 1.2.7
+- Added: Dynamic Content option add for all Text, content and Image Field of All Modules.
+- Added: Filterable CPT - Search Filter System.
+- Fixed: Content Switcher - Primary button icon on mobile issue.
+- Fixed: Hover Box and Content Switcher - Margin Bottom of Main spacing doesn't work.
+- Fixed: Advanced Tab - Library content render ajax issue.
+- Fixed: Product Grid and Product Carousel- Badges conflict with other Plugins issue.
+- Added: Product Grid and Product Carousel - WPML Support.
+
+Version 1.2.6
+- Added: Advanced Gallery - Image Order system.
+- Added: Filterable CPT - Multiple Filter System.
+- Improved: Advanced List -Lottie Icon settings make more user friendly.
+- Improved: Advanced List - Content outside wrapper feature at Child Item.
+- Improved: Advanced List - Child Item gap unit apply.
+- Improved: Advanced DataTable - Special character support.
+- Fixed: Advanced List - Item content width value issue.
+- Fixed: Breadcrumbs - Current Page Font inherit and Alignment issues.
+- Fixed: Breadcrumbs - Separate Element issue.
+
+Version 1.2.5
+- Fixed: Advanced List - Lottie file upload warning issue.
+- Fixed: dashboard settings sync on copy/paste the dashboard link.
+- Fixed: Image Accordion - Html Tag showing issues.
+- Fixed: Testimonial Carousel - Rating icon space between not equal.
+- Added: LottieImage, Advanced List, Advanced Divider - custom field added for display notice when json file upload.
+
+Version 1.2.4
+- Introduced Advanced List.
+- Introduced Breadcrumbs.
+- Fixed : CPT Grid - image original size issue.
+- Fixed: Advanced Blurb - Badge Text Border and Box Shadow Issues.
+- Added : Advanced Tab - Hover Event Type add.
+- Added : Advanced Tab - Library layout system to Advanced tab.
+- Imporoved : CPT Filter - Shortcode render capabilities on ajax call.
+- Fixed: Advanced Person - Description format  issues.
+
+Version 1.2.3
+- Introduced Scroll Image.
+- Introduced Advanced Divider.
+- Added : Business Hours - Link and Filter options Add at child item.
+- Added : Dual Button - Icon size and spacing option add for Left and Right button.
+- Improved: Advanced Blurb - Dynamic content option extend at Title, Subtitle, description and Image field.
+- Improved: Advanced Person - Dynamic Content option extend at Name, description and Image field.
+- Improved: Typewriter Text - Apostrophe, tag, quote, unicode support at typing text field.
+
+Version 1.2.2
+ -Fixed: Product Grid - Column Layout issue with responsiveness.
+- Fixed: Product Grid - Default Icon size of Pagination arrow doesn't work.
+- Fixed: Filterable CPT - Item Equal height doesn't work properly.
+- Fixed: Content Toggle - Toggle button spacing at frontend.
+- Fixed: Advanced Datatable - At PHP 8 Version Datatable doesn't show at Frontend.
+- Fixed: Advanced Blurb - box-shadow transition doesn't work at Button, Icon, Image and Badge.
+- Fixed: Advanced Heading - Default Heading tag font-size mismatch.
+- Fixed - Table : Show builder error when haven't any row available.
+- Improved: Product Grid and Product Carousel - Woocommerce Subscription plugin support.
+- Improved: Product Grid and Product Carousel - Woo product bundle plugin support.
+
+Version 1.2.1
+- Introduced CPT Carousel.
+- Introduced Lottie Image.
+- Introduced Content Toggle.
+- Improved : ImageHotspot - shortcode support with video.
+
+Version 1.2.0
+- Improved: Typewriter last text not staying when animation done at "Loop" option off.
+- Fixed: Blog Carousel - Shadow Color Dark and Shadow Color Light doesn't work.
+- Fixed: Image Carousel - Item Layout break when enable slide shadow.
+- Fixed: Blog Module - Excerpt Length not working when use post excerpt.
+- Fixed: Product Carousel And Product Grid - Default Add to cart button show when use Divi shop module with Product Carousel/ Product Grid module.
+- Fixed: Product Grid and Product Carousel - Box shadow doesn't work properly.
+- Fixed: Product Grid - Product Image bottom spacing issue.
+- Fixed: Dual Button - Background and spacing doesn't work at frontend when the module use at custom post type template.
+- Added: Advanced Tab: Image option feature for use as Icon at tab navigation.
+- Added: Advanced Blurb - Icon option add at Button element.
+
+Version 1.1.10
+- Added: Module Control - "Default Module" Button added at Modules menu.
+- Added: Blog, Product and CPT allowed HTML tags at Title Element.
+- Fixed: Blog Grid, Cpt Grid, Blog Carousel, Filterable Cpt - Overlay doesn't work.
+- Fixed: Instagram Gallery - Gallery showed broken on lazy load enable.
+
+Version 1.1.9
+- Fixed: Image Carousel, Instagram Carousel, Content Carousel, Testimonial Carousel slide count issue in Visual Builder.
+- Fixed: Compatibility with Background mask and pattern.
+- Fixed: Instagram Gallery and Instagram Carousel - Empty caption notice.
+- Fixed: Blog Grid, Blog Carousel, CPT Grid and Filterable CPT Grid removed empty markup.
+
+Version 1.1.8
+- Introduced Filterable Cpt Grid.
+- Introduced Image Hotspot.
+- Introduced Typewriter Text.
+- Fixed: CPT Grid - Builder Outer Wrapper issues.
+- Fixed: CPT Grid category issue.
+- Fixed: Blog Grid and Blog Carousel- Builder Outer Wrapper issues.
+- Fixed: Product Grid and Product Carousel- Builder Outer Wrapper issues.
+- Fixed: Some Deprecated issue's for PHP 8
+- Fixed: Logo Carousel - Auto play preview disable at visual builder.
+- Fixed: Lightbox Dependency added to all those modules which have Lightbox option.
+- Fixed: Image Accordion - Button link doesn't work when event type select Click.
+- Fixed: Image Accordion - Doesn't work at theme builder.
+- Fixed: Before After Image - Doesn't work perfeactly at Safari browser.
+- Improved: License Management.
+
+Version 1.1.7
+- Fixed: Product Grid and Product Carousel - Functional Conflict Issues.
+
+Version 1.1.6
+- Added: Advanced DataTable - Language option added at Table Options Settings. So Now Table Can show in 50+ Languages.
+- Fixed: Product Carousel - Active dot's border color isssue on Visual Builder.
+- Fixed: Product Grid and Product Carousel - Ajax View cart icon working issue.
+- Fixed: Advanced DataTable - Default Image size of Table Header area at Builder.
+- Fixed: Advanced DataTable - Google Sheet Table Cache issue on Visual Builder.
+- Fixed: Blog Grid and Blog Carousel: Divider Settings visibility issue.
+- Fixed: CPT Grid - Divider Settings visibility issue.
+- Fixed: Product Grid and Product Carousel: Divider Settings visibility issue.
+- Fixed: Advanced Image Gallery - PHP Version 8 support issue.
+- Improved: Advanced DataTable - Html Tag(img, span etc) Supported at Google sheet data.
+- Improved: Product Carousel - Arrow and Disable Arrow Hover Selector Changed.
+- Improved: Advanced DataTable - Spacial Charecter(Ex: Æ, æ , Ø) from defferent countries are supported now.
+
+Version 1.1.5
+- Introduced Product Carousel Module.
+- Fixed: Product Grid - Add to cart click then view cart button come with same design and working properly.
+- Fixed: Product Grid - Unwanted space remove from pagination container.
+- Fixed: Product Grid - Font style of Sale Badge before, after, suffix text.
+- Fixed: Product Grid - bottom spacing remove from last row of product item.
+- Fixed: Product Grid - Pagination middle area dot border, colour doesn't inherit from other number button style.
+- Fixed: Product Grid - Column number option not working when layout column switch at Visual Builder.
+- Fixed: Product Grid - Font Awesome icon not working On Image Overlay at Builder.
+- Fixed: Cpt Grid - Image size option reset issue fixed.
+- Fixed: Image Accordion - font awesome Icon are working at builder properly.
+- Improved: Image Carousel - Content Vertical Alignment option added.
+- Improved: Blog Grid - Position Setting added for element.
+- Improved: Blog Carousel - Position Setting added for element.
+
+Version 1.1.4
+- Fixed: Product Grid - Add to Cart Text decoration style.
+- Fixed: Product Grid - Add to cart button for Variable-product / group-product is working properly.
+- Fixed: Product Grid - Add to cart button positioning perfected following enabled Ajex option.
+- Improved: Image Accordion - Added icon option in the content.
+
+Version 1.1.3
+- Fixed: Advanced Image Gallery - Load More Icon click then data doesn't load.
+- Fixed: Justified Gallery - Load More Icon click data load doesn't working.
+- Fixed: Packery Gallery - Load More Icon click data load doesn't working.
+- Fixed: Advanced Image Gallery - show unwanted short code at frontend on empty item.
+- Fixed: Packery Gallery - show unwanted short code at frontend on empty item.
+- Fixed: Justified Gallery - show unwanted short code at frontend on empty item.
+- Fixed: Advanced Image Gallery - Filter Button of active state will gone after click on outside button area.
+- Fixed: Before After Image - Divi Ultimate plugin compatibility with Diviflash.
+- Fixed: Before After Image - Image size at Wordpress blog single page and Woocommerce product details page.
+- Fixed: Image hover - Icon border transition.
+- Fixed: Advanced Person Module -  Remove http text from Email, phone field at frontend.
+- Fixed: Advanced Image Gallery - Hover icon click with Overlay design does not working on hover.
+- Improved: BlogCarousel - ACF field support.
+- Improved: Blog Carousel - ACF field support.
+- Improved: All module - Alt Tag added in all image field.
+- Improved: Image hover Box- Added Background, spacing and border settings of Icon.
+- Improved: Product Grid - Added Animation setting at Short Description and divider element.
+- Improved: Disable/Enable all module button added to modules dashboard.
+
+Version 1.1.2
+- Introduced Product Grid Module.
+- Improved: Prior notice added to BlogGrid, BlogCarousel and CPTGrid modules.
+- Improved: Default Plugins dependency Modules will inactive. Ex: Product Grid module have dependency on Woocommerce. So that module will be inactive.
+- Improved: Number pagination next and previous button padding option.
+- Improved: Number pagination added option to use only icon option for next and previous button.
+- Fixed: Advanced Blur - Title, Subtitle, Description Transition
+- Fixed: Icon rendering issue with older version of divi.
+- Fixed: Css selector wrapper issue.
+- Fixed: Grid and masonry layout issue with lazyload.
+- Fixed: BlogGrid masonry layout issue.
+- Fixed: CPTGrid item alignment.
+
+
+Version 1.1.1 ( November 13, 2021 )
+- Fixed: Icon compatibility issue.
+- Fixed: Builder hover state view.
+
+Version 1.1.0 ( October 27, 2021 )
+- Introduced CPT Grid Module.
+- Introduced ACF support extension.
+- Added: Blog Grid - Margin option for Icon/Image.
+- Added: Blog grid - Use Image as Icon at Icon Settings.
+- Added: Blog Carousel - Use Image as Icon  at Icon Settings.
+- Added: Blog Carousel - Margin option for Icon/Image.
+- Fixed: Remove inherited margin of divi from all Child items of modules.
+- Fixed: Data Table - Auto space issue.
+- Fixed: Floating issue of Flip box Module.
+- Added: Get Admin Notice when divi theme/builder not activate.
+- Added: Import/Export functionality of Dashboard Settings.
+- Added: Blog Carousel - background scale on hover.
+- Added: Blog Grid - background scale on hover.
+
+Version 1.0.11 ( October 13, 2021 )
+- Improved Advanced Data Table, now we can use comma in table column.
+- Fixed Advanced Data Table missing row in builder.
+- Fixed Advanced Data Table special characters display at frontend.
+- Added Advanced Data Table error handling functions.
+- Fixed Security issues.
+- Improved Instagram Carousel settings order for users.
+- Improved Instagram Carousel image and icon settings for both use at the same time.
+- Added Avanced Image Gallery custom html support for image description and caption.
+- Added Packery Gallery custom html support for image descriotion and caption.
+- Added Justified Gallery custom html support for image descriotion and caption.
+- Added settings and license links at plugin dashboard.
+
+Version 1.0.10 ( September 14, 2021 )
+- Fixed: Advanced Data Table – Remove empty line from front-end and VB.
+- Fixed: Advanced Data Table – CSV delimiter dynamic convertion.
+- Fixed: Blog Grid – ajax pagination.
+- Fixed: Image Carousel – Arrow pointer event issue on top & bottom position.
+- Fixed: Divi Content Carousel – Arrow pointer event issue on top & bottom position.
+- Fixed: Instagram Carousel – Arrow pointer event issue on top & bottom position.
+- Fixed: Blog Carousel – Arrow pointer event issue on top & bottom position.
+- Fixed: Divi Testimonial Carousel – Arrow pointer event issue on top & bottom position.
+- Added: Divi Image Carousel – Dot navigation for cube & fade effect.
+- Added: Divi Image Carousel – Large active dot style option.
+- Added: Divi Testimonial Carousel – Large active dot style option.
+
+Version 1.0.9 ( August 19, 2021 )
+- Added: Dashboard settings.
+- Added: Advanced Blurb Title Link URL option.
+- Added: Add Image Alternative Tag option.
+- Changed: Image Accordion change “Animation settings” title to “Text Animation Settings”.
+- Fixed: ImageCarousel arrow hover issue.
+- Fixed: ContentCarousel arrow hover issue.
+- Fixed: TestimonialCarousel arrow hover issue.
+- Fixed: BlogCarousel arrow hover issue.
+- Fixed: InstagramCarousel arrow hover issue.
+- Fixed: AnimatedHeading issue for new Divi version
+
+Version 1.0.8 ( July 14, 2021 )
+- Fixed: Header request issue – loader.php.
+
+Version 1.0.7 ( July 06, 2021 )
+- New module: Advanced Preson
+- AdvancedDataTable: CSV upload option added
+- AdvancedDataTable: Pagination dot color settings fixed
+- AdvancedDataTable: Responsive issue fixed
+- AdvancedDataTable: Initial table rendering issue on VB fixed
+- DataTable: Badge option added
+- DataTable: Responsive issue fixed
+- DataTable: CSV textarea string issue fixed
+- DataTable: Table header VB markup issue fixed
+- DataTable: Single item icon option added
+- Module control: Added module disable/enable dashboard
+- License Navaigation: Changed the license dashboard navigation to Diviflash page
+- BlogCarousel: VB style issue on tablet and mobile
+- BlogCarousel: Tag element display control issue fixed
+- BlogCarousel: Module rendering issue on VB fixed
+- BlogCarousel: Icon style issue
+- BlogCarousel: Fixed image size issue
+- BlogGrid: Tag element display control issue fixed
+- BlogGrid: Module rendering issue on VB fixed
+- BlogGrid: Icon style issue
+- BlogGrid: Fixed image size issue
+- Advanced Blub: Badge Icon hide when badge option disable
+- Image Accordion: Item, button, content box shadow transition fixed
+- Image Accordion: Overlay Hover option add
+- Instagram Gallery: User info, Profile picture, Image, Load More button extra label remove
+- Instagram Gallery: Add AutoPlay Video Control at Instagram Gallery and Instagram Carousel
+
+Version 1.0.6 ( Apr 29, 2021 )
+- Fixed : PostGrid module style issue on VB on tablet and phone view.
+- Fixed : PostCarousel module style on VB on tablet and phone view.
+- Fixed : LogoCarousel Tablet and Phone view layout issue on VB.
+- Fixed : PostGrid pagination icon position issue.
+- Added : Data Table module.
+- Added : Advanced Data Table Module.
+
+Version 1.0.5 ( Mar 28, 2021 )
+- Fixed: BlogCarousel element hover selector.
+- Fixed: BlogGrid element hover selector.
+- Fixed: BlogCarousel meta vertical alignment issue.
+- Fixed: BlogGrid meta vertical alignment issue.
+- Fixed: Initial load issue of all Carousel.
+- Fixed: BlogGrid module container height issue on ajax load.
+- Added: BlogCarousel Custom text element.
+- Added: BlogGrid Custom text element.
+- Added: BlogGrid & BlogCarousel author image margin.
+- Added: Advanced Image Gallery first nav custom text option.
+- Added: Divider element for BlogCarousel & BlogGrid modules.
+- Added: Scroll to content area feature for tablet and mobile device into AdvancedTab.
+
+Version 1.0.4 ( Mar 15, 2021 )
+- Fixed: tinymce issue on VB.
+- Fixed: module icon style issue.
+- Added: BlogGrid Module.
+- Added: BlogCarousel Module.
+- Added: Before After Image Module.
+- Added: Image Accordion Module.
+
+Version 1.0.3 ( Feb 01, 2021 )
+- Fixed: Testimonial Carousel border transition.
+- Fixed: Image Hover title default font-size.
+- Fixed: Image Hover scale transition issue.
+- Fixed: WPForms dropdown style issue.
+- Fixed: WPForms select style issue.
+- Fixed: Packery Gallery lightbox content on ajax-load.
+- Added: Logo Carousel arrow margin control.
+- Added: Image Carousel lightbox.
+- Added: Content Carousel lightbox.
+- Added: Image Gallery load more button icon.
+- Added: Justified Gallery load more button icon.
+- Added: Packery Gallery load more button icon.
+- Added: Testimonial Carousel dots responsive settings.
+
+Version 1.0.2 ( Jan 26, 2021 )
+- Module Added: Advanced Tab
+- Module Added: Business Hours
+- Module Added: Instagram Gallery
+- Module Added: Instagram Carousel
+- Updated: new mask added in image mask module
+
+Version 1.0.1 ( Dec 01, 2020 )
+- Module Added: Image Hover.
+- Module Added: Advanced Blurb.
+- Fetaure Added: Advanced image gallery lightbox download button disable option.
+- Fetaure Added: Justified gallery lightbox download button disable option.
+- Fetaure Added: Packery gallery lightbox download button disable option.

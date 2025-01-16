@@ -1,0 +1,55 @@
+.dtq-logo-grid {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.ba_logo_grid_child * {
+    height: 100%;
+}
+
+.ba_logo_grid_child {
+    transition: 0.2s ease;
+}
+
+.ba_logo_grid_child figure {
+    margin: 0;
+    text-align: center;
+    height: 100%;
+}
+.dtq-logo-grid__item a {
+    display: block;
+    height: 100%;
+}
+.dtq-logo-grid__item img {
+    vertical-align: middle;
+    transition: 0.2s ease;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.zoom_in .dtq-logo-grid__item:hover img {
+    transform: scale(1.2);
+}
+.zoom_out .dtq-logo-grid__item:hover img {
+    transform: scale(0.8);
+}
+.fade .dtq-logo-grid__item:hover img {
+    opacity: 0.65;
+}
+.black_n_white .dtq-logo-grid__item:hover img {
+    filter: grayscale(100%);
+}
+
+.dtq-logo-grid .et_pb_module {
+    margin-bottom: 0 !important;
+}
+
+.dtq-logo-grid__item {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style: solid;
+}

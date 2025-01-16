@@ -1,0 +1,13 @@
+#menu-management #nav-menu-header .major-publishing-actions #menu-name{
+    margin-left:0px !important;
+}
+#nav-menu-header .major-publishing-actions #icl_menu_language{
+    margin-left:0px !important;
+}
+#menu-management #nav-menu-header .major-publishing-actions{
+    display:block;
+}
+#menu-management #nav-menu-header .major-publishing-actions .df-settings-btn-wrap{
+    margin-left:0px;
+    margin-top:20px;
+}

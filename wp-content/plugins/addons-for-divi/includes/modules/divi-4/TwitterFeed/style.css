@@ -1,0 +1,137 @@
+.dtq-twitter-grid {
+    display: grid;
+}
+
+.dtq-twitter-grid * {
+    box-sizing: border-box !important;
+}
+
+.dtq-twitter-grid .dtq-twitter-grid-item {
+    position: relative;
+    z-index: 0;
+    display: flex;
+    border-style: solid;
+    word-break: break-word;
+}
+
+.dtq-twitter-grid .dtq-twitter-grid-inner-wrapper {
+    flex-direction: column;
+}
+
+.dtq-twitter-grid .dtq-twitter-grid-item .dtq-twitter-grid-item-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: visible !important;
+}
+
+.dtq-twitter-grid-item-inner {
+    border-style: solid;
+    position: relative;
+}
+
+.dtq-twitter-grid .dtq-twitter-grid-author,
+.dtq-twitter-grid .dtq-twitter-grid-inner-wrapper,
+.dtq-twitter-grid .dtq-twitter-grid-user {
+    display: flex;
+}
+
+.dtq-twitter-grid.dtq-twitter-right .dtq-twitter-grid-icon span {
+    right: auto;
+    left: 5px;
+    transform: rotateY(-180deg);
+}
+
+.dtq-twitter-grid .dtq-twitter-grid-icon span {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.dtq-twitter-grid .dtq-twitter-grid-author {
+    margin-bottom: 15px;
+}
+
+.dtq-twitter-grid .dtq-twitter-grid-author {
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.dtq-twitter-grid.dtq-twitter-center .dtq-twitter-grid-author {
+    align-items: center;
+    flex-direction: column;
+}
+
+.dtq-twitter-grid.dtq-twitter-right .dtq-twitter-grid-author {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.dtq-twitter-center .dtq-twitter-grid-user {
+    text-align: center;
+}
+
+.dtq-twitter-grid .dtq-twitter-grid-user {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.dtq-twitter-grid.dtq-twitter-center .dtq-twitter-grid-avatar {
+    vertical-align: middle;
+}
+.dtq-twitter-grid .dtq-twitter-grid-avatar {
+    border-style: solid;
+}
+
+.dtq-twitter-grid .dtq-twitter-grid-content {
+    position: relative;
+    color: #222;
+}
+
+.dtq-twitter-grid .dtq-twitter-grid-content p {
+    margin-bottom: 5px;
+}
+
+.dtq-twitter-grid.dtq-twitter-left .dtq-twitter-grid-content {
+    text-align: left;
+}
+
+.dtq-twitter-grid.dtq-twitter-center .dtq-twitter-grid-content {
+    text-align: center;
+}
+
+.dtq-twitter-grid.dtq-twitter-right .dtq-twitter-grid-content {
+    text-align: right;
+}
+
+/* footer */
+.dtq-twitter-grid .dtq-twitter-grid-footer {
+    width: 100%;
+}
+
+.dtq-twitter-grid-footer * {
+    vertical-align: middle;
+}
+
+.dtq-twitter-grid .dtq-tweet-favorite {
+    margin-right: 12px;
+}
+
+.dtq-twitter-grid .dtq-tweet-favorite,
+.dtq-twitter-grid .dtq-tweet-retweet {
+    display: inline-block;
+    color: #a7a7a7;
+}
+
+.dtq-twitter-right .dtq-twitter-grid-user {
+    text-align: right;
+}
+
+.dtq-twitter-grid .dtq-twitter-grid-footer-wrapper {
+    margin-top: auto !important;
+}
